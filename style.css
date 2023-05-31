@@ -1,3 +1,53 @@
-.menu {
+/*.about {
+  width: 100vh;
+  height: 100vh;
+  border-style: dashed;
+  border-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("header-illsutration-mobile@2x.png");
+    background-size: 100vh ;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+@media  (min-width: 375px) {
+  /*
+  .about {
+    background-image: url("header-illsutration-mobile@2x.png");
+    background-size: 100% 20%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}*/
+/*@media only screen and (min-device-width: 375px) {
+  
+  .about {
+    min-height: 70vh;
+    min-width: 80vh;
+    
+    background-image: url("header-shapes mobile.png") ;
+    background-size: cover;
+   
+
+  }
+}*/
+.about {
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
+
+@media (min-width: 375px) {
+  .about {
+    min-height: 90vh;
+    background: goldenrod;
+    background-image: url("header-shapes mobile.png");
+    background-size: 100% ;
+    background-position: center;
+    background-repeat: no-repeat;
+
+  }
+}
+
+
