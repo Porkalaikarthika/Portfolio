@@ -20,40 +20,36 @@
   .menu {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    
+    justify-content: space-between;    
   }
   .intro h2 {
     font-family: 'Poppins',sans-serif;    
     font-size: 40px;
     line-height: 4rem;
-    font-weight: bold;    
-    background-color: rgba(0, 0, 0, 0.1);
+    font-weight: bold;
     fill: #172B4D;
   }
   .intro p{
     font-family: 'Poppins',sans-serif;    
     font-size: 16px;    
-    line-height: 2rem;
-    background-color: rgba(0, 0, 0, 0.1);
+    line-height: 2rem;    
     vertical-align: top;
-
   }
   .about {
     min-height: 90vh;    
     background-image: url("header-shapes mobile.png");
-    background-size: 100% ;
-    background-position: 100%;
+    background-size: cover ;
+    background-position: cover;
     background-repeat: no-repeat;
-
   }
-  .social ul{
-    display: flex;  
-    gap :  
-    align-items: baseline;    
-    list-style: none;    
+  .social {
+    display: flex;     
+    align-items: center;
+    gap: 1em;
   }
-  
 }
+  
+  
+
 
 
