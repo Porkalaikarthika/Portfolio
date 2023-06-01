@@ -1,10 +1,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 @media (min-width: 375px) {
   .container {
     display: flex;
     flex-direction: column;    
   }
+
   .logo {
     font-family:'Poppins',sans-serif;
     font-weight: bold;
@@ -13,12 +15,18 @@
     color: #6070FF;    
     cursor: pointer;        
   }
+
   .menu {
     display: flex;
     align-items: center;
-    justify-content: space-between; 
-       
+    justify-content: space-between;       
   }
+
+  .menu img {
+    width: auto;
+    height: auto;
+  }
+  
   .intro h2 {
     font-family: 'Poppins',sans-serif;    
     font-size: 40px;
@@ -26,15 +34,18 @@
     font-weight: bold;
     fill: #172B4D;
   }
+
   .intro p {
     font-family: 'Poppins',sans-serif;    
     font-size: 16px;    
     line-height: 2rem;    
     vertical-align: top;
   }
+
   .connect {
     color: #6070FF;
   }
+
   .about {
     display: flex;    
     flex-direction: column;   
@@ -45,15 +56,15 @@
     background-position: cover;
     background-repeat: no-repeat;
   }
+
   .social {
     display: flex;     
     align-items: center;
     gap: 1em;
     cursor: pointer;
   }
-}
-  
-  
+
+}  
 
 
 
