@@ -115,8 +115,7 @@ Open the index.html file
 
 - GitHub: [@githubporkalaikarthika](https://github.com/Porkalaikarthika)
 - Twitter: [@twitterkarthika](https://twitter.com/PorkalaiKarthi)
-- LinkedIn: [LinkedIn](linkedin.com/in/porkalai-karthika/)
-
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/porkalai-karthika/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

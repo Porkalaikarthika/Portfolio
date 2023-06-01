@@ -12,12 +12,18 @@
     margin-top: 10px;
   }
 
-  body {
-    padding: 1.5rem;
+  header {
+    padding: 1rem 1.5rem 0rem 1.5rem;
+  }
+
+  .bgimage {
+    padding: 0rem 1.5rem 1.5rem 1.5rem ;
     background-image: url("header-shapes mobile.png");
     background-size: 100%;
     background-position: cover;
     background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
   }
 
   .container {
@@ -53,7 +59,7 @@
   .intro h1 {
     font-family: 'Poppins', sans-serif;
     font-size: 2.5rem;
-    line-height: 3.25rem;
+    line-height: 2.5rem;
     margin-bottom: 10px;
     font-weight: 700;
     color: #172b4d;
@@ -86,7 +92,7 @@
   }
 
   .content {
-    margin-top: -9rem;
+    margin-top: 7rem;
   }
 
   .social {
