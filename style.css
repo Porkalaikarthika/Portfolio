@@ -59,10 +59,9 @@
     gap: 1em;
     min-height: 90%;
     background-image: url("header-shapes mobile.png");
-    background-size: cover ;
+    background-size: cover;
     background-position: cover;
     background-repeat: no-repeat;
-
   }
 
   .social {
