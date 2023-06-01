@@ -4,18 +4,18 @@
 @media (min-width: 375px) {
   .container {
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;
   }
 
   .logo {
-    font-family:'Poppins',sans-serif;
+    font-family: 'Poppins',sans-serif;
     font-weight: bold;
     font-size: 18px;
     line-height: 74%;
-    color: #6070FF;    
+    color: #6070ff;
     cursor: pointer;        
   }
-
+  
   .menu {
     display: flex;
     align-items: center;
@@ -63,6 +63,7 @@
     gap: 1em;
     cursor: pointer;
   }
+  
 
 }  
 
