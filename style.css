@@ -13,11 +13,11 @@
   }
 
   header {
-    padding: 1rem 1.5rem 0rem 1.5rem;
+    padding: 1rem 1.5rem 0 1.5rem;
   }
 
   .bgimage {
-    padding: 0rem 1.5rem 1.5rem 1.5rem ;
+    padding: 0 1.5rem 1.5rem 1.5rem;
     background-image: url("header-shapes mobile.png");
     background-size: 100%;
     background-position: cover;
