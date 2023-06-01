@@ -1,26 +1,23 @@
 
-/*.about {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
 @media (min-width: 375px) {
+  .container {
+    display: flex;
+    flex-direction: column;    
+  }
   .logo {
     font-family:'Poppins',sans-serif;
     font-weight: bold;
     font-size: 18px;
     line-height: 74%;
-    color: #6070FF;        
-  }
-  a {
-    text-decoration: none;
+    color: #6070FF;    
+    cursor: pointer;        
   }
   .menu {
     display: flex;
     align-items: center;
-    justify-content: space-between;    
+    justify-content: space-between; 
+       
   }
   .intro h2 {
     font-family: 'Poppins',sans-serif;    
@@ -29,14 +26,20 @@
     font-weight: bold;
     fill: #172B4D;
   }
-  .intro p{
+  .intro p {
     font-family: 'Poppins',sans-serif;    
     font-size: 16px;    
     line-height: 2rem;    
     vertical-align: top;
   }
+  .connect {
+    color: #6070FF;
+  }
   .about {
-    min-height: 90vh;    
+    display: flex;    
+    flex-direction: column;   
+    gap: 1em;    
+    min-height: 90%;    
     background-image: url("header-shapes mobile.png");
     background-size: cover ;
     background-position: cover;
@@ -46,6 +49,7 @@
     display: flex;     
     align-items: center;
     gap: 1em;
+    cursor: pointer;
   }
 }
   
