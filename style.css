@@ -88,7 +88,6 @@
     flex-direction: column;
     justify-content: center;
     gap: 1rem;
-    height: 100vh;
   }
 
   .content {
