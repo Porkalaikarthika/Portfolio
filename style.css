@@ -87,7 +87,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 1rem;
+    gap: 1rem;    
   }
 
   .content {
@@ -108,5 +108,127 @@
     align-items: center;
     list-style: none;
     gap: 5.07vw;
+  }
+
+  /* -------------------------------------middle */
+  .middle {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+  }
+  .card {    
+    font-family: 'Poppins', sans-serif;   
+    /* width: 23.44rem; */
+    /* height: 34.5rem; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 1px solid #dfe1e6;
+    border-radius: 16px;
+    margin: 24px;
+    /* gap: 25px; */
+    /* justify-content: flex-start; */
+  }
+
+  .card img {
+    margin: 1rem;
+  }
+
+  /*.description {
+    display: flex;
+    flex-direction: column;
+
+  }*/
+
+  .card h4 {    
+    /* width: 18.44rem; */
+    /* height: 2.25rem; */
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #172b4d;
+    margin: 0.625rem 1rem; 
+  }
+  .first {
+    list-style-type: none;
+  }
+
+  .list {    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #7a869a;
+    margin: 0.625rem 1rem;
+  }
+
+  .canopy {
+    color: #344563;
+  }
+
+  .list .bullet::before {
+    content: "\2022";
+    font-size: xx-large;
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 12px;
+    /* align-items: center; */
+    /* width: 10px; */
+    /* height: 10px; */
+    color: #c1c7d0;    
+    font-weight: bold;
+
+  }
+
+  .card p {
+    /* position: relative; */
+    /* width: 18.44rem; */
+    /* height: 4.75rem; */
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.5rem;
+    color: #344563;
+    margin: 0.625rem 1rem;
+  }
+  
+  .buttonList {
+    list-style: none;
+    display: flex;
+    gap: 0.5rem;
+    justify-content: flex-start;
+    margin: 0.625rem 1rem;
+    /* width:13.38rem; */
+    /* height: 1.5rem; */
+  }
+
+  
+  .smallbtn {
+    background-color: #ebebff;
+    color: #6070ff;
+    border-radius: 0.5rem;
+    padding: 4px 12px;
+    align-items: center;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1rem;
+  }
+
+  .buttonlrg {
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    padding: 12px;
+    align-items: center;
+    color: #396df2;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    margin: 0.9375rem 1rem 1.75rem 1rem;
   }
 }
