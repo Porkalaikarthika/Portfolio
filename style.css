@@ -112,10 +112,14 @@
 
   /* -------------------------------------middle */
   .middle {
+    background-color: #e5e5e5;
+    padding-top: 7.125rem;
     display: grid;
     grid-template-columns: repeat(1,1fr);
+    gap: 5.5rem;
   }
   .card {    
+    background-color: #ffffff;
     font-family: 'Poppins', sans-serif;   
     /* width: 23.44rem; */
     /* height: 34.5rem; */
@@ -154,7 +158,7 @@
 
   .list {    
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     list-style-type: none;
     font-style: normal;
@@ -163,6 +167,10 @@
     line-height: 16px;
     color: #7a869a;
     margin: 0.625rem 1rem;
+  }
+
+  .list li {
+    margin-right: 12px;
   }
 
   .canopy {
@@ -230,5 +238,106 @@
     font-weight: 500;
     line-height: 24px;
     margin: 0.9375rem 1rem 1.75rem 1rem;
+    transition: background-color 0.3s ease;
   }
+
+  .buttonlrg:hover {
+    background-color: #6070ff;
+    color: #ffffff;
+
+  }
+
+  .buttonlrg:active {
+    background-color: #2230d2;
+    color: #ffffff;
+    border-color:#2230d2 ;
+  }
+
+  .buttonlrg:disabled {
+    border: 1px solid #c1c7d0;
+    color: #5e6c84 ;
+  }
+
+  /* ----------------about myself------ */
+  .myself h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 3.25rem;
+    color: #172b4d;
+  }
+
+  .myself p { 
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #344563;
+    line-height: 1.5rem;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+  }
+
+  
+  /* .langlist ul {
+    display: flex;
+    justify-content: space-around;
+
+  }
+
+  .template {
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    gap: 16px;
+    background-color: #f7f7f9;
+  } */
+
+  /* .langlist .arrow { 
+    display: grid;
+    grid-template-columns: repeat(1,1fr); 
+    gap: 0.5rem;  
+    list-style-type: none;
+  } 
+  
+  .langlist .arrow li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+  .dropdwn {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .js {
+    display: ;
+  } */
+  .flexdwn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .js ul {
+    display: grid;
+    align-content: center;
+    place-content: center;
+    grid-template-columns: repeat(1,1fr);
+    justify-content: flex-start;
+    gap: 0.75rem;
+  }
+  .js li {
+    display: flex;
+    gap: 1rem;
+    margin: 20px;
+    background-color: #e9380c;
+    align-items: center;
+    list-style-type: none;
+    border-radius: 8px;
+    padding: 3rem;
+  }
+
+
 }
