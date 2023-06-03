@@ -109,4 +109,197 @@
     list-style: none;
     gap: 5.07vw;
   }
+
+  /* -------------------------------------middle */
+  .middle {
+    background-color: #e5e5e5;
+    padding-top: 7.125rem;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 5.5rem;
+    padding-bottom: 30.4%;
+  }
+
+  .card {
+    background-color: #fff;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 1px solid #dfe1e6;
+    border-radius: 16px;
+    margin: 24px;
+  }
+
+  .card img {
+    margin: 1rem;
+  }
+
+  .card h4 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #172b4d;
+    margin: 0.625rem 1rem;
+  }
+
+  .first {
+    list-style-type: none;
+  }
+
+  .list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style-type: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #7a869a;
+    margin: 0.625rem 1rem;
+  }
+
+  .list li {
+    margin-right: 12px;
+  }
+
+  .canopy {
+    color: #344563;
+  }
+
+  .list .bullet::before {
+    content: "\2022";
+    font-size: xx-large;
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 12px;
+    color: #c1c7d0;
+    font-weight: bold;
+  }
+
+  .card p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.5rem;
+    color: #344563;
+    margin: 0.625rem 1rem;
+  }
+
+  .buttonList {
+    list-style: none;
+    display: flex;
+    gap: 0.5rem;
+    justify-content: flex-start;
+    margin: 0.625rem 1rem;
+  }
+
+  .smallbtn {
+    background-color: #ebebff;
+    color: #6070ff;
+    border-radius: 0.5rem;
+    padding: 4px 12px;
+    align-items: center;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1rem;
+  }
+
+  .buttonlrg {
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    padding: 12px;
+    align-items: center;
+    color: #396df2;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    margin: 0.9375rem 1rem 1.75rem 1rem;
+    transition: background-color 0.3s ease;
+  }
+
+  .buttonlrg:hover {
+    background-color: #6070ff;
+    color: #fff;
+  }
+
+  .buttonlrg:active {
+    background-color: #2230d2;
+    color: #fff;
+    border-color: #2230d2;
+  }
+
+  .buttonlrg:disabled {
+    border: 1px solid #c1c7d0;
+    color: #5e6c84;
+  }
+
+  /* ----------------about myself------ */
+  .myself {
+    margin: 0 6.4%;
+  }
+
+  .myself button {
+    margin-left: 0;
+  }
+
+  .myself h2 {
+    margin-top: 30.4%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 3.25rem;
+    color: #172b4d;
+  }
+
+  .myself p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #344563;
+    line-height: 1.5rem;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .flexdwn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #dfe1e6;
+    margin: 6.4%;
+    padding: 5%;
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+    font-weight: 500;
+    font-size: 20px;
+  }
+
+  .js ul {
+    display: grid;
+    align-content: center;
+    place-content: center;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: flex-start;
+    gap: 0.75rem;
+  }
+
+  .js li {
+    display: flex;
+    gap: 1rem;
+    margin: 0 9.6%;
+    background-color: #f7f7f9;
+    align-items: center;
+    list-style-type: none;
+    border-radius: 8px;
+    padding: 2.4% 5%;
+    font-family: 'Poppins', sans-serif;
+    color: #253858;
+    font-weight: 500;
+    font-size: 15px;
+  }
 }

@@ -16,6 +16,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+- [🚀 Live Demo](#live-demo)   
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -58,13 +59,17 @@
 ### Key Features <a name="key-features"></a>
 
 >
-- **Added menu** [My logo and menu icon added] 
-- **Styled using flex** [This page is styled using css flex]
+- **Added Project details** [Details of the projects I have done are included] 
+- **Styled using flex and grid** [This page is styled using css flexbox and grid]
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🚀 Live Demo <a name="live-demo"></a>
 
+- [Demo link is coming soon](#)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
