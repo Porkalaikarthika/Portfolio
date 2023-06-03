@@ -58,8 +58,8 @@
 ### Key Features <a name="key-features"></a>
 
 >
-- **Added menu** [My logo and menu icon added] 
-- **Styled using flex** [This page is styled using css flex]
+- **Added Project details** [Details of the projects I have done are included] 
+- **Styled using flex and grid** [This page is styled using css flexbox and grid]
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

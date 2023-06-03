@@ -87,7 +87,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 1rem;    
+    gap: 1rem;
   }
 
   .content {
@@ -115,39 +115,39 @@
     background-color: #e5e5e5;
     padding-top: 7.125rem;
     display: grid;
-    grid-template-columns: repeat(1,1fr);
+    grid-template-columns: repeat(1, 1fr);
     gap: 5.5rem;
     padding-bottom: 30.4%;
   }
 
-  .card {    
+  .card {
     background-color: #ffffff;
-    font-family: 'Poppins', sans-serif;    
+    font-family: 'Poppins', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     border: 1px solid #dfe1e6;
     border-radius: 16px;
-    margin: 24px;    
+    margin: 24px;
   }
 
   .card img {
     margin: 1rem;
-  }  
+  }
 
   .card h4 {
     font-weight: 700;
     font-size: 32px;
     line-height: 44px;
     color: #172b4d;
-    margin: 0.625rem 1rem; 
+    margin: 0.625rem 1rem;
   }
 
   .first {
     list-style-type: none;
   }
 
-  .list {    
+  .list {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -173,13 +173,12 @@
     font-size: xx-large;
     display: inline-block;
     vertical-align: middle;
-    padding-right: 12px;    
-    color: #c1c7d0;    
+    padding-right: 12px;
+    color: #c1c7d0;
     font-weight: bold;
-
   }
 
-  .card p {    
+  .card p {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 15px;
@@ -193,9 +192,8 @@
     display: flex;
     gap: 0.5rem;
     justify-content: flex-start;
-    margin: 0.625rem 1rem;    
+    margin: 0.625rem 1rem;
   }
-
   
   .smallbtn {
     background-color: #ebebff;
@@ -226,19 +224,18 @@
 
   .buttonlrg:hover {
     background-color: #6070ff;
-    color: #ffffff;
-
+    color: #fff;
   }
 
   .buttonlrg:active {
     background-color: #2230d2;
-    color: #ffffff;
-    border-color:#2230d2 ;
+    color: #fff;
+    border-color:#2230d2;
   }
 
   .buttonlrg:disabled {
     border: 1px solid #c1c7d0;
-    color: #5e6c84 ;
+    color: #5e6c84;
   }
 
   /* ----------------about myself------ */
@@ -259,7 +256,7 @@
     color: #172b4d;
   }
 
-  .myself p { 
+  .myself p {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 1rem;
@@ -277,16 +274,16 @@
     margin: 6.4%;
     padding: 5%;
     font-family: 'Poppins', sans-serif;
-    color: #000000;
+    color: #000;
     font-weight: 500;
     font-size: 20px;
   }
-  
+
   .js ul {
     display: grid;
     align-content: center;
     place-content: center;
-    grid-template-columns: repeat(1,1fr);
+    grid-template-columns: repeat(1, 1fr);
     justify-content: flex-start;
     gap: 0.75rem;
   }
