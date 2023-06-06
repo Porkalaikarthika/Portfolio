@@ -316,13 +316,13 @@ body {
     position: relative;
     z-index: 1;
     }
-    
+  
     .bg {
       margin-top: 11rem;
       position: relative;
       overflow: hidden; 
       background-color: #6070ff;
-      border-radius: 6rem 0 0 0;        
+      border-radius: 6rem 0 0 0;
     }
 
     .bg::after {
@@ -331,9 +331,8 @@ body {
       top: 0;
       right: 0;
       bottom: 0;
-      width: 66%; /* Adjust as needed */
-      background-image: url('img/contactForm.png'); 
-     /* Replace with your image path */
+      width: 66%;
+      background-image: url('img/contactForm.png');
       background-repeat: no-repeat;
       background-position: center center;
       background-size: cover;
@@ -348,10 +347,8 @@ body {
       color: #fff;
       margin-bottom: 0.75rem;
       text-align: center;
-      /* padding-top: 3rem; */
-      /* margin-top: 2rem; */
     }
-    
+  
     .contact-me p {
       color: #EBEBFF;
       font-size: 1.2rem;
@@ -361,7 +358,7 @@ body {
       text-align: center;
       margin-bottom: 3.25rem;
     }
-    
+
     .contact-me button {
       width: 8.875rem;
       height: 3rem;
@@ -373,8 +370,25 @@ body {
       font-weight: 500;
       font-size: 1.1rem;
       line-height: 1.5rem;
+      transition: background-color 0.3s ease;
     }
-    
+
+    .butn:hover {
+      background-color: #6070ff;
+      color: #fff;
+    }
+
+    .butn:active {
+      background-color: #2230d2;
+      color: #fff;
+      border-color: #2230d2;
+    }
+
+    .butn:disabled {
+      border: 1px solid #c1c7d0;
+      color: #5e6c84;
+    }
+
     .contact-me form {
       flex-basis: 100%;
       display: flex;
@@ -383,7 +397,7 @@ body {
       width: 20.43rem;
       
     }
-    
+
     .contact-me form input {
       padding: 0.935rem 2.37rem 0.935rem 1rem;
       border-radius: 0.5rem;
