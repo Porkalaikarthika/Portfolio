@@ -308,16 +308,38 @@ body {
   }
 
   .contact-me {
-    background-image: url("/assets/images/contact-form-shapes-mobile.png") ;
-    background-color: #6070FF;
-    background-position:cover;
-    background-repeat: no-repeat;
+    
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     padding: 6.5rem  2.4rem 0.5rem 2.4rem;
+    position: relative;
+    z-index: 1;
     }
     
+    .bg {
+      margin-top: 11rem;
+      position: relative;
+      overflow: hidden; 
+      background-color: #6070ff;
+      border-radius: 6rem 0 0 0;        
+    }
+
+    .bg::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      width: 66%; /* Adjust as needed */
+      background-image: url('img/contactForm.png'); 
+     /* Replace with your image path */
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      z-index: 0;
+    }
+
     .contact-me h2 {
       flex-basis: 100%;
       font-weight: 700;
@@ -326,6 +348,8 @@ body {
       color: #fff;
       margin-bottom: 0.75rem;
       text-align: center;
+      /* padding-top: 3rem; */
+      /* margin-top: 2rem; */
     }
     
     .contact-me p {
@@ -342,8 +366,13 @@ body {
       width: 8.875rem;
       height: 3rem;
       border-radius: 0.5rem;
-      color:#6070FF;
+      color:#6070ff;
       background-color:#fff;
+      border: none;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 500;
+      font-size: 1.1rem;
+      line-height: 1.5rem;
     }
     
     .contact-me form {
@@ -362,7 +391,9 @@ body {
     }
 
     .contact-me form textarea {
-      padding: 5.31rem 2.37rem 5.31rem 1rem;
+      padding: 0.9375rem 2.375rem 0.9375rem 1rem;
+      width: 20.4375rem;
+      height: 10.625rem;
       border-radius: 0.5rem;
       border: 0;
     }
