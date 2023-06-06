@@ -315,7 +315,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 0 1.5rem;
+    padding: 6.5rem  2.4rem 0.5rem 2.4rem;
     }
     
     .contact-me h2 {
@@ -324,8 +324,8 @@ body {
       font-size: 2.5rem;
       line-height: 3.25rem;
       color: #fff;
-      margin: 0;
-      padding: 0;
+      margin-bottom: 0.75rem;
+      text-align: center;
     }
     
     .contact-me p {
@@ -334,11 +334,16 @@ body {
       font-weight: 400;
       line-height: 1.75rem;
       flex-basis: 100%;
+      text-align: center;
+      margin-bottom: 3.25rem;
     }
     
     .contact-me button {
-      flex-basis: 100%;
+      width: 8.875rem;
       height: 3rem;
+      border-radius: 0.5rem;
+      color:#6070FF;
+      background-color:#fff;
     }
     
     .contact-me form {
@@ -350,9 +355,15 @@ body {
       
     }
     
-    #name {
-      height:  3rem;
-      
-      
+    .contact-me form input {
+      padding: 0.935rem 2.37rem 0.935rem 1rem;
+      border-radius: 0.5rem;
+      border: 0;
+    }
+
+    .contact-me form textarea {
+      padding: 5.31rem 2.37rem 5.31rem 1rem;
+      border-radius: 0.5rem;
+      border: 0;
     }
 }
