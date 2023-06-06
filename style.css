@@ -7,6 +7,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
 @media (min-width: 375px) {
   head {
     margin-top: 10px;
@@ -302,4 +306,53 @@
     font-weight: 500;
     font-size: 15px;
   }
+
+  .contact-me {
+    background-image: url("/assets/images/contact-form-shapes-mobile.png") ;
+    background-color: #6070FF;
+    background-position:cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 1.5rem;
+    }
+    
+    .contact-me h2 {
+      flex-basis: 100%;
+      font-weight: 700;
+      font-size: 2.5rem;
+      line-height: 3.25rem;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .contact-me p {
+      color: #EBEBFF;
+      font-size: 1.2rem;
+      font-weight: 400;
+      line-height: 1.75rem;
+      flex-basis: 100%;
+    }
+    
+    .contact-me button {
+      flex-basis: 100%;
+      height: 3rem;
+    }
+    
+    .contact-me form {
+      flex-basis: 100%;
+      display: flex;
+      flex-direction: column;
+      row-gap: 1.25rem;
+      width: 20.43rem;
+      
+    }
+    
+    #name {
+      height:  3rem;
+      
+      
+    }
 }
