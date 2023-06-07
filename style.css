@@ -418,10 +418,20 @@ body {
 @media (min-width: 768px) {
   body {
     margin: 0;
-    padding: 0;
+    padding: 0;  
   }
+
   header {
     padding: 1.5rem 9.6875rem 1.5rem 9.6875rem;
+    background-color: #fff;
+  }
+  .front {
+    background-color: #e5e5e5;
+  }
+
+  .container {
+    background-color: #fff;
+    border-radius: 0 0 0 6rem;
   }
 
   .bgimage {
@@ -434,6 +444,9 @@ body {
     background-repeat: no-repeat;
     height: 100%;
     overflow: hidden;
+    
+    background-color: #fff;
+    
   }
 
   .menu {
