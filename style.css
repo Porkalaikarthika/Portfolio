@@ -28,6 +28,10 @@ body {
     height: 100vh;
     overflow: hidden;
   }
+  
+  .menuBar {
+    display: none;
+  }
 
   .container {
     display: flex;
@@ -36,13 +40,13 @@ body {
   }
 
   .menu a {
-    width: 20.27vw;
-    height: 5.33vw;
+    width: 4.75rem;
+    height: 1.25rem;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 4.8vw;
-    line-height: 74%;
+    font-size: 1.125rem;
+    line-height: 1.25rem;
     color: #6070ff;
     cursor: pointer;
     text-decoration: none;
@@ -82,7 +86,7 @@ body {
     font-family: 'Poppins', sans-serif;
     color: #7f8cff;
     font-weight: 500;
-    font-size: 4.25vw;
+    font-size: 1rem;
     margin: 0.9375rem 0;
   }
 
@@ -408,4 +412,89 @@ body {
     border-radius: 0.5rem;
     border: 0;
   }
+}
+
+/* --------------------desktop version------------- */
+@media (min-width: 768px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    padding: 1.5rem 9.6875rem 1.5rem 9.6875rem;
+  }
+
+  .bgimage {
+    /* margin-top: 3rem; */
+    margin: 2rem 0.5rem 4.7rem  2rem;
+    padding: 0 1.5rem 1.5rem 1.5rem;
+    background-image: url("desktop-img/Header\ bg@2x.png");
+    background-size: 100%;
+    background-position: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .menuBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .menuFlex {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 2rem;
+    color: #343563;
+    font-size: 0.9375rem;
+    font-weight: 500;
+    line-height: 1.25rem;
+  }
+
+  .menuBar a {
+    width: 4.75rem;
+    height: 1.25rem;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 1.25rem;
+    color: #6070ff;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .intro h1 {
+    color: #091e42;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 3.75rem;
+    padding: 9rem 12rem 0 12rem;    
+  }
+
+  .intro p {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    padding: 0 15rem 0.75rem 12rem;
+  }
+  
+  .connect {
+    padding: 0 10rem 0 12rem;
+  }
+  
+  .social {    
+    padding: 0 10rem 6.6rem 12rem;
+    margin-bottom:6.625rem;
+  }
+
+  .social ul {
+    gap: 1.25rem;
+  }
+
 }
