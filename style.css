@@ -377,7 +377,7 @@ body {
 
   .contact-me p {
     color: #ebebff;
-    font-size: 1.2rem;
+    font-size: 1.25rem;
     font-weight: 400;
     line-height: 1.75rem;
     flex-basis: 100%;
@@ -672,6 +672,23 @@ body {
   }
   .bg {
     border-radius: 9rem 0 0 0;
+  }
+
+  .contact-me p {
+    padding: 0.75rem 20rem 0.75rem 20rem;
+  }
+
+  .contact-me form {
+    align-items: center;
+    padding-bottom: 4.5rem;  
+  }
+
+  .contact-me form input {
+    width: 28rem;
+  }
+
+  .contact-me form textarea {
+    width: 28rem;
   }
 
 
