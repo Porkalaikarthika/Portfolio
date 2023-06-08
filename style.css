@@ -24,15 +24,13 @@ body {
     background-image: url("header-shapes mobile.png");
     background-size: 100%;
     background-position: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
+    background-repeat: no-repeat;    
     overflow: hidden;
   }
 
   .container {
     display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+    flex-direction: column;    
   }
 
   .menu a {
