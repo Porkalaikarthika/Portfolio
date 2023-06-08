@@ -1,0 +1,102 @@
+/* header {
+    padding: 1.5rem 9.6875rem 1.5rem 9.6875rem;
+    background-color: #fff;
+  }
+  .front {
+    background-color: #e5e5e5;
+  }
+
+  .container {
+    background-color: #fff;
+    border-radius: 0 0 0 6rem;
+    margin-bottom: -5rem;
+    padding-bottom: -5rem;    
+  }
+  
+  .bgimage {
+    margin: 2rem 0.5rem 0 2rem;
+    padding: 0 1.5rem 0 1.5rem;
+    background-image: url("desktop-img/Header\ bg@2x.png");
+    background-size: 100%;
+    background-position: cover;
+    background-repeat: no-repeat;
+    /* height: 40rem; */
+    /* overflow: hidden;    
+    background-color: #fff;
+  } */
+
+  /* .menu {
+    display: none;
+  }
+
+  .menuBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .menuFlex {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 2rem;
+    color: #343563;
+    font-size: 0.9375rem;
+    font-weight: 500;
+    line-height: 1.25rem;
+  }
+
+  .menuBar a {
+    width: 4.75rem;
+    height: 1.25rem;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 1.25rem;
+    color: #6070ff;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .intro h1 {
+    color: #091e42;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 3.75rem;
+    padding: 9rem 12rem 0 12rem;    
+  }
+
+  .intro p {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    padding: 0 15rem 0.75rem 12rem;
+  }
+  
+  .connect {
+    padding: 0 10rem 0 12rem;
+  }
+  
+  .social {    
+    padding: 0 10rem 0 12rem;
+   
+  }
+
+  .social ul {
+    gap: 1.25rem;
+  } */ */
+
+  /* -------------middle------------- */
+
+  .card {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .mimg {
+    display: none;
+  }
+
+  .dimg {
+    display: block;
+  }
