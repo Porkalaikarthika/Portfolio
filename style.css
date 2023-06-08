@@ -20,6 +20,8 @@ header {
 }
 
 .container {
+  display: flex;
+  flex-direction: column;
   background-color: #e5e5e5;
 }
 
@@ -35,11 +37,6 @@ header {
 
 .menuBar {
   display: none;
-}
-
-.container {
-  display: flex;
-  flex-direction: column;
 }
 
 .menu a {
@@ -112,7 +109,7 @@ header {
   gap: 5.07vw;
 }
 
-/* -------------------------------------middle -------------------------*/
+ /* -------------------------------------middle -------------------------*/
 .middle {
   background-color: #e5e5e5;
   padding-top: 7.125rem;
@@ -292,7 +289,6 @@ header {
 .myself .buttonlrg {
   margin-left: 1.5rem;
 }
-
 
 .flexdwn {
   display: flex;
