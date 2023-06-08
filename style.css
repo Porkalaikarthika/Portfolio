@@ -461,4 +461,68 @@ body {
     text-decoration: none;
   }
 
-}
+  header {
+    padding: 1.5rem 9.6875rem 1.5rem 9.6875rem;
+    background-color: #fff;
+  }
+
+  .outerbg{
+    background-color: #fff;
+   border-radius: 0 0 0 9rem;
+  }
+
+  .container {
+    background-color: #e5e5e5;
+    
+    /* margin: 0rem 0.5rem 0 2rem;     */
+  }
+
+  .content {    
+      background-image: url('desktop-img/Header\ bg@2x.png');
+      background-size: 100%;
+      background-position: cover;
+      background-repeat: no-repeat;
+      background-color: #fff;
+      /* margin: 0; */
+      padding: 0;
+      margin: 3rem 0.5rem 0 2rem;
+      border-radius: 0 0 0 9rem;
+    }
+
+    .mimg {
+      display: none;
+    }
+  
+    .dimg {
+      display: block;
+    }
+
+    .intro h1 {
+      color: #091e42;
+      font-size: 3rem;
+      font-weight: 700;
+      line-height: 3.75rem;
+      padding: 15rem 16.25rem 0 14rem;
+      margin: 0;
+    }
+    
+    .intro p {
+      font-size: 1.25rem;
+      line-height: 1.75rem;
+      padding: 0.75rem 15.75rem 0 14rem;
+    }
+
+    .connect {
+      padding: 0 60rem 0 14rem;
+      margin: 0;
+    }
+
+    .social {
+      padding: 0 10rem 15rem 14rem;
+    }
+    
+    .social ul {
+      gap: 1.25rem;
+    }
+  }
+
