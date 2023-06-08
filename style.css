@@ -192,7 +192,7 @@ body {
   .card p {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 1rem;
     line-height: 1.5rem;
     color: #344563;
     margin: 0.625rem 1rem;
@@ -560,5 +560,29 @@ body {
       color: #091e42;
       margin: 3rem 2.875rem 1.25rem 2.875rem;
     }
+
+    .list {
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    color: #6b778c;
+    margin: 0 2.875rem;
+    }
+
+    .canopy {
+      font-weight: 500;
+    }
+    .card p {
+      margin: 2rem 2.875rem 1.5rem 2.875rem;
+    }
+
+    .buttonList {
+      margin: 0 0 2.5rem 2.875rem ;
+    }
+
+    .buttonlrg {
+      margin: 0 0 0 2.875rem;
+    }
+  
   }
 

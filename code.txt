@@ -158,11 +158,11 @@
     align-items: center;
     list-style-type: none;
     font-style: normal;
-    font-weight: 600;
-    font-size: 13px;
-    line-height: 16px;
-    color: #7a869a;
-    margin: 0.625rem 1rem;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    color: #6b778c;
+    margin: 0 2.875rem;
   }
 
   .list li {
