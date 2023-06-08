@@ -89,7 +89,7 @@ body {
     color: #344563;
   }
 
-  .connect h4 {
+  .connect {
     font-family: 'Poppins', sans-serif;
     color: #7f8cff;
     font-weight: 500;
@@ -101,10 +101,12 @@ body {
     display: flex;
     align-items: center;
     gap: 1rem;
-    cursor: pointer;
-    padding: 0 1.5rem 8.5rem 1.5rem;
+    cursor: pointer;    
   }
 
+  .content .social {
+    padding: 0 1.5rem 8.5rem 1.5rem;
+  }
   .social ul {
     display: flex;
     justify-content: flex-start;
@@ -250,8 +252,12 @@ body {
   }
 
   /* ----------------about myself------ */
+  .aboutBgColor {
+    background-color: #e5e5e5;
+  }
   .myself {
-    margin: 0 6.4%;
+    background-color: #fff;
+    border-radius: 0 6rem 0 0;
   }
 
   .myself button {
@@ -259,7 +265,8 @@ body {
   }
 
   .myself h2 {
-    margin-top: 30.4%;
+    padding-top: 30.4%;
+    margin-left: 6.4%;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: 40px;
@@ -273,9 +280,17 @@ body {
     font-size: 1rem;
     color: #344563;
     line-height: 1.5rem;
-    margin-top: 0.75rem;
-    margin-bottom: 0.75rem;
+    margin:0.75rem 1.5rem;    
   }
+
+  .myself .social {
+    margin: 0 0 1.3rem 1.5rem;
+  }
+
+  .myself .buttonlrg {
+    margin-left: 1.5rem;
+  }
+  
 
   .flexdwn {
     display: flex;
@@ -516,15 +531,15 @@ body {
     .intro p {
       font-size: 1.25rem;
       line-height: 1.75rem;
-      padding: 0.75rem 15.75rem 0 14rem;
+      padding: 0.75rem 15.75rem 0.75rem 14rem;
     }
 
     .connect {
-      padding: 0 60rem 0 14rem;
+      padding: 0 60rem 1rem 14rem;
       margin: 0;
     }
 
-    .social {
+    .content .social {
       padding: 0 10rem 15rem 14rem;
     }
     
@@ -583,6 +598,6 @@ body {
     .buttonlrg {
       margin: 0 0 0 2.875rem;
     }
-  
+  /* ------------about myself--------------- */
   }
 
