@@ -605,7 +605,7 @@ body {
     }
   /* ------------about myself--------------- */
   .outerbg {
-    background-color: #000;
+    /* background-color: #000; */
     
   }
  
@@ -613,6 +613,7 @@ body {
   .aboutBgColor {
     display: grid;
     grid-template-columns: 36.875rem auto;
+    /* border-radius: 0 8rem 0 0; */
     /* gap: 0.75rem;     */
   }
 
@@ -657,8 +658,23 @@ body {
   }
 
   .langlist {
-    padding-top: 9rem;
-
+    padding-top: 9rem;    
+    border-radius: 0 10rem 0 0;
   }
+  /* ----------------contact me desktop-------------------- */
+  .contact-me {
+    background-image: url("desktop-img/contact\ form\ background\ shapes@2x.png") ;
+    background-size: 100%;
+    background-position: cover;
+    background-repeat: no-repeat;
+    margin: 4.9rem 4.6875rem 3rem 4.6875rem;
+    /* border-radius: 1rem 0 0 0; */
+  }
+  .bg {
+    border-radius: 9rem 0 0 0;
+  }
+
+
+
 }
 
