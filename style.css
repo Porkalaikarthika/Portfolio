@@ -251,13 +251,17 @@ body {
     color: #5e6c84;
   }
 
-  /* ----------------about myself------ */
+  /* --------------------------------------about myself---------------------------------------------------- */
   .aboutBgColor {
     background-color: #e5e5e5;
   }
   .myself {
     background-color: #fff;
     border-radius: 0 6rem 0 0;
+  }
+
+  .langlist {
+    background-color: #fff;
   }
 
   .myself button {
@@ -297,12 +301,12 @@ body {
     align-items: center;
     justify-content: space-between;
     border-bottom: 2px solid #dfe1e6;
-    margin: 6.4%;
+    margin: 0 6.4% ;
     padding: 5%;
     font-family: 'Poppins', sans-serif;
     color: #000;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 20px;    
   }
 
   .js ul {
@@ -321,13 +325,14 @@ body {
     background-color: #f7f7f9;
     align-items: center;
     list-style-type: none;
-    border-radius: 8px;
+    border-radius: 0.5rem;
     padding: 2.4% 5%;
     font-family: 'Poppins', sans-serif;
     color: #253858;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 0.93rem;
   }
+  /* -----------------------contact me-------------------------- */
 
   .contact-me {
     display: flex;
@@ -534,7 +539,7 @@ body {
       padding: 0.75rem 15.75rem 0.75rem 14rem;
     }
 
-    .connect {
+    .content .connect {
       padding: 0 60rem 1rem 14rem;
       margin: 0;
     }
@@ -599,5 +604,61 @@ body {
       margin: 0 0 0 2.875rem;
     }
   /* ------------about myself--------------- */
+  .outerbg {
+    background-color: #000;
+    
   }
+ 
+
+  .aboutBgColor {
+    display: grid;
+    grid-template-columns: 36.875rem auto;
+    /* gap: 0.75rem;     */
+  }
+
+  .myself {
+    padding-left: 7.5rem;
+    border-radius: 0;
+  }
+
+  .myself h2 {
+    color: #091e42;    
+    padding-top: 10.37rem;
+  }
+
+  .myself p {
+     padding-left:0;
+     padding-right: 0.5rem;
+  }
+  
+  .js ul {
+    display: grid;
+    
+    grid-template-columns: 7.6rem 7.6rem 7.6rem;
+    grid-auto-rows: 7.5rem;
+    
+    gap: 0.75rem;
+  }
+  .js li {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;   
+    padding: 0.75rem;
+    margin: 0;
+  }
+  .arrow li {
+    list-style-type: none;
+  }
+
+  .flexdwn {
+    padding: 1.5rem 0;
+    margin: 0 11.3rem 0 0;
+  }
+
+  .langlist {
+    padding-top: 9rem;
+
+  }
+}
 
