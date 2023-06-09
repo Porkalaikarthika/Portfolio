@@ -555,7 +555,7 @@ header {
 
   .card {
     display: flex;
-    flex-direction: row;    
+    flex-direction: row;
     border-radius: 1.5rem;
     margin: 0 9.86% 0 9.86%;
   }
@@ -606,7 +606,7 @@ header {
 
   .aboutBgColor {
     display: grid;
-    grid-template-columns: 40.93vw auto;    
+    grid-template-columns: 40.93vw auto;
   }
 
   .myself {
@@ -626,7 +626,7 @@ header {
 
   .js ul {
     display: grid;
-    grid-template-columns: 8.43vw 8.43vw 8.43vw;   
+    grid-template-columns: 8.43vw 8.43vw 8.43vw;
     grid-auto-rows: 8.32vw;
     gap: 3vw;
   }  
