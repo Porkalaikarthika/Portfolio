@@ -66,7 +66,7 @@ header {
 .intro h1 {
   font-family: 'Poppins', sans-serif;
   font-size: 2.5rem;
-  line-height: 2.5rem;
+  line-height: 3.25rem;
   padding: 29% 6.4% 3.2% 6.4%;
   font-weight: 700;
   color: #172b4d;
@@ -77,7 +77,7 @@ header {
   font-style: normal;
   font-size: 1rem;
   font-weight: 400;
-  line-height: 1.5rem;
+  line-height: 1.25rem;
   padding: 0 6.4% 3.2% 6.4%;
   color: #344563;
 }
@@ -115,7 +115,7 @@ header {
   padding-top: 30.4%;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  gap: 5.5rem;
+  gap: 6.1vw;
   padding-bottom: 30.4%;
 }
 
@@ -126,7 +126,7 @@ header {
   flex-direction: column;
   align-items: center;
   border: 1px solid #dfe1e6;
-  border-radius: 1rem;
+  border-radius: 1.11vw;
   margin: 6.4%;
 }
 
@@ -179,10 +179,10 @@ header {
 
 .list .bullet::before {
   content: "\2022";
-  font-size: xx-large;
+  font-size: 2rem;
   display: inline-block;
   vertical-align: middle;
-  padding-right: 0.75rem;
+  padding-right: 0.83vw;
   color: #c1c7d0;
   font-weight: bold;
 }
@@ -191,7 +191,7 @@ header {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 1rem;
-  line-height: 1.5rem;
+  line-height: 1.25rem;
   color: #344563;
   margin: 2.668% 6.4%;
 }
@@ -208,8 +208,8 @@ header {
 .smallbtn {
   background-color: #ebebff;
   color: #6070ff;
-  border-radius: 0.5rem;
-  padding: 1.07vw 3.2vw;
+  border-radius: 0.55vw;
+  padding: 1% 3%;
   align-items: center;
   border: none;
   font-family: 'Poppins', sans-serif;
@@ -221,13 +221,13 @@ header {
 .buttonlrg {
   border: 1px solid #6070ff;
   border-radius: 0.5rem;
-  padding: 3.2%;
+  padding: 3%;
   align-items: center;
   color: #396df2;
   font-family: 'Poppins', sans-serif;
   font-size: 1rem;
   font-weight: 500;
-  line-height: 1.5rem;
+  line-height: 1.6vw;
   margin: 4% 4.27% 7.47% 6.4%;
   transition: background-color 0.3s ease;
 }
@@ -281,7 +281,7 @@ header {
   font-weight: 400;
   font-size: 1rem;
   color: #344563;
-  line-height: 1.5rem;
+  line-height: 1.25rem;
   margin: 3.2% 6.4%;
 }
 
@@ -322,7 +322,7 @@ header {
   background-color: #f7f7f9;
   align-items: center;
   list-style-type: none;
-  border-radius: 0.5rem;
+  border-radius: 0.55vw;
   padding: 2.4% 5%;
   font-family: 'Poppins', sans-serif;
   color: #253858;
@@ -346,7 +346,7 @@ header {
   position: relative;
   overflow: hidden;
   background-color: #6070ff;
-  border-radius: 6rem 0 0 0;
+  border-radius: 6.66vw 0 0 0;
 }
 
 @media screen and (min-width: 375px) and (max-width: 767px) {
@@ -389,14 +389,14 @@ header {
   width: 37.89%;
   height: 12.81%;
   padding: 3.2% 4.27%;
-  border-radius: 0.5rem;
+  border-radius: 0.55vw;
   color: #6070ff;
   background-color: #fff;
   border: none;
   font-family: 'Poppins', sans-serif;
-  font-size: 1 rem;
+  font-size: 1rem;
   font-weight: 500;
-  line-height: 1.5rem;
+  line-height: 1.25rem;
   transition: background-color 0.3s ease;
 }
 
@@ -427,7 +427,7 @@ header {
 
 .contact-me form input {
   padding: 4% 10.11% 4% 4.27%;
-  border-radius: 0.5rem;
+  border-radius: 0.55vw;
   border: 0;
 }
 
@@ -459,11 +459,11 @@ header {
     display: flex;
     align-items: center;
     justify-content: end;
-    gap: 2rem;
+    gap: 2.22vw;
     color: #343563;
     font-size: 0.9375rem;
     font-weight: 500;
-    line-height: 1.25rem;
+    line-height: 1.38vw;
   }
 
   .menuBar a {
@@ -472,8 +472,8 @@ header {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 1.125rem;
-    line-height: 1.25rem;
+    font-size: 1.25vw;
+    line-height: 1.38vw;
     color: #6070ff;
     cursor: pointer;
     text-decoration: none;
@@ -488,7 +488,7 @@ header {
 
   .outerbg {
     background-color: #fff;
-    border-radius: 0 0 0 9rem;
+    border-radius: 0 0 0 9.99vw;
   }
 
   .container {
@@ -503,7 +503,8 @@ header {
     background-color: #fff;
     padding: 0;
     margin: 3.33% 0.55% 0 2.22%;
-    border-radius: 0 0 0 9rem;
+    border-radius: 0 0 0 9.99vw;
+    width: 100%;
   }
 
   .mimg {
@@ -516,16 +517,16 @@ header {
 
   .intro h1 {
     color: #091e42;
-    font-size: 3rem;
+    font-size: 3.33vw;
     font-weight: 700;
-    line-height: 3.75rem;
+    line-height: 4.16vw;
     padding: 16.65% 18% 0 15.54%;
     margin: 0;
   }
 
   .intro p {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
+    font-size: 1.38vw;
+    line-height: 1.94vw;
     padding: 0.83% 17.48% 0.83% 15.54%;
   }
 
@@ -551,13 +552,20 @@ header {
     padding-top: 9.86vw;
     padding-bottom: 9.86vw;
     grid-auto-flow: dense;
+    width: 100%;
+  }
+
+  .description {
+    margin-top: 3.33%;
+    margin-bottom: 9.5%;
   }
 
   .card {
     display: flex;
     flex-direction: row;
-    border-radius: 1.5rem;
+    border-radius: 1.65vw;
     margin: 0 9.86% 0 9.86%;
+    /* width: 100%; */
   }
 
   .card img {
@@ -568,16 +576,16 @@ header {
 
   .card h4 {
     font-weight: 700;
-    font-size: 2.5rem;
-    line-height: 3.25rem;
+    font-size: 2.7vw;
+    line-height: 3.6vw;
     color: #091e42;
     margin: 3.33% 3.19% 1.38% 3.19%;
   }
 
   .list {
     font-weight: 400;
-    font-size: 1.125rem;
-    line-height: 1.5rem;
+    font-size: 1.25vw;
+    line-height: 1.6vw;
     color: #6b778c;
     margin: 0 3.19%;
   }
@@ -588,6 +596,8 @@ header {
 
   .card p {
     margin: 2.22% 3.19% 1.66% 3.19%;
+    font-size: 1.11vw;
+    line-height: 1.6vw;
   }
 
   .buttonList {
@@ -595,7 +605,7 @@ header {
   }
 
   .buttonlrg {
-    margin: 0 0 0 3.19%;
+    margin: 3.19%;
   }
 
   /* ------------about myself--------------- */
@@ -617,11 +627,15 @@ header {
   .myself h2 {
     color: #091e42;
     padding-top: 11.51vw;
+    font-size: 2.7vw;
+    line-height: 3.6vw;
   }
 
   .myself p {
     padding-left: 0;
     padding-right: 0.55%;
+    font-size: 1.11vw;
+    line-height: 1.6vw;
   }
 
   .js ul {
@@ -638,6 +652,8 @@ header {
     justify-content: flex-start;
     padding: 0.8325vw;
     margin: 0;
+    font-size: 1.11vw;
+    line-height: 1.38vw;
   }
 
   .arrow li {
@@ -647,11 +663,13 @@ header {
   .flexdwn {
     padding: 1.66vw 0;
     margin: 0 12.54vw 0 0;
+    font-size: 1.388vw;
+    line-height: 1.66vw;
   }
 
   .langlist {
     padding-top: 9.99vw;
-    border-radius: 0 8rem 0 0;
+    border-radius: 0 8.88vw 0 0;
   }
 
   /* ----------------contact me desktop-------------------- */
@@ -665,18 +683,22 @@ header {
   }
 
   .bg {
-    border-radius: 9rem 0 0 0;
+    border-radius: 9.99vw 0 0 0;
     margin-top: 11vw;
   }
 
   .contact-me h2 {
     margin-bottom: 0.83vw;
     margin-top: 9.8vw;
+    font-size: 2.77vw;
+    line-height: 3.6vw;
   }
 
   .contact-me p {
-    padding: 0.8vw 15vw;
+    padding: 0.8vw 25vw;
     margin-bottom: 0;
+    font-size: 1.38vw;
+    line-height: 1.98vw;
   }
 
   .contact-me form {
@@ -694,8 +716,8 @@ header {
   }
 
   .contact-me button {
-    padding: 0.1vw;
+    padding: 0.8vw 1.11vw;
     width: 15vw;
-    font-size: 1rem;
+    font-size: 1.11vw;
   }
 }
