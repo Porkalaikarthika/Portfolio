@@ -115,7 +115,7 @@ header {
   padding-top: 30.4%;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  gap: 23.46%;
+  gap: 5.5rem;
   padding-bottom: 30.4%;
 }
 
@@ -363,7 +363,9 @@ header {
     background-size: 100%;
     z-index: 0;
   }
+
 }
+
 
 .contact-me h2 {
   flex-basis: 100%;
@@ -502,7 +504,7 @@ header {
     background-repeat: no-repeat;
     background-color: #fff;
     padding: 0;
-    margin: 3.33vw 0.55vw 0 2.22vw;
+    margin: 3.33% 0.55% 0 2.22%;
     border-radius: 0 0 0 9rem;
   }
 
