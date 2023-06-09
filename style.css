@@ -435,7 +435,7 @@ header {
 }
 
 /* --------------------desktop version------------- */
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   body {
     margin: 0;
     padding: 0;
@@ -464,8 +464,8 @@ header {
   }
 
   .menuBar a {
-    width: 4.75rem;
-    height: 1.25rem;
+    width: 5.27%;
+    height: 1.38%;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -477,7 +477,7 @@ header {
   }
 
   header {
-    padding: 1.5rem 9.6875rem 1.5rem 9.6875rem;
+    padding: 1.66% 10.75%;
     background-color: #fff;
     position: sticky;
     top: 0;
@@ -499,7 +499,7 @@ header {
     background-repeat: no-repeat;
     background-color: #fff;
     padding: 0;
-    margin: 3rem 0.5rem 0 2rem;
+    margin: 3.33% 0.55% 0 2.22%;
     border-radius: 0 0 0 9rem;
   }
 
@@ -516,27 +516,27 @@ header {
     font-size: 3rem;
     font-weight: 700;
     line-height: 3.75rem;
-    padding: 15rem 16.25rem 0 14rem;
+    padding: 16.65% 18% 0 15.54%;
     margin: 0;
   }
 
   .intro p {
     font-size: 1.25rem;
     line-height: 1.75rem;
-    padding: 0.75rem 15.75rem 0.75rem 14rem;
+    padding: 0.83% 17.48% 0.83% 15.54%;
   }
 
   .content .connect {
-    padding: 0 60rem 1rem 14rem;
+    padding: 0 66.6% 1.11% 15.54%;
     margin: 0;
   }
 
   .content .social {
-    padding: 0 10rem 15rem 14rem;
+    padding: 0 11.1% 16.65% 15.54%;
   }
 
-  .social ul {
-    gap: 1.25rem;
+  .social li {
+    gap: 1.38%;
   }
 
   /* ----------middle section------------ */
