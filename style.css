@@ -565,7 +565,6 @@ header {
     flex-direction: row;
     border-radius: 1.65vw;
     margin: 0 9.86% 0 9.86%;
-    /* width: 100%; */
   }
 
   .card img {
