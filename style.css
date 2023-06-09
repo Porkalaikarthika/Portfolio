@@ -629,7 +629,7 @@ header {
     grid-template-columns: 8.43vw 8.43vw 8.43vw;
     grid-auto-rows: 8.32vw;
     gap: 3vw;
-  }  
+  }
 
   .js li {
     display: flex;
