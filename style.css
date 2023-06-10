@@ -572,7 +572,7 @@ header {
     max-width: 50%;
     height: auto;
   }
-
+  
   .card h4 {
     font-weight: 700;
     font-size: 2.7vw;
@@ -718,5 +718,9 @@ header {
     padding: 0.8vw 1.11vw;
     width: 15vw;
     font-size: 1.11vw;
+  }
+  /* ------------------------------animation-------------- */
+  .menu a {
+   
   }
 }
