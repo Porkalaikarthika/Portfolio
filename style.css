@@ -488,8 +488,9 @@ header {
 
   @keyframes rotate {
     from {
-      transform: rotate(0deg); 
+      transform: rotate(0deg);
     }
+
     to {
       transform: rotate(360deg);
     }
@@ -740,9 +741,5 @@ header {
     padding: 0.8vw 1.11vw;
     width: 15vw;
     font-size: 1.11vw;
-  }
-  /* ------------------------------animation-------------- */
-  .menu a {
-   
-  }
+  }  
 }
