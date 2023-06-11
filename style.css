@@ -141,6 +141,11 @@ header {
 .card img {  
   padding: 6.4%;
   max-width: 100%;
+  transition: all 0.3s linear;
+}
+
+.card img:hover {
+  transform: scale(1.3);
 }
 
 .card h4 {
@@ -229,12 +234,13 @@ header {
   font-weight: 500;
   line-height: 1.6vw;
   margin: 4% 4.27% 7.47% 6.4%;
-  transition: background-color 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .buttonlrg:hover {
   background-color: #6070ff;
   color: #fff;
+  border: 1px solid #fff;
 }
 
 .buttonlrg:active {
@@ -397,12 +403,13 @@ header {
   font-size: 1rem;
   font-weight: 500;
   line-height: 1.25rem;
-  transition: background-color 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .butn:hover {
   background-color: #6070ff;
   color: #fff;
+  border: 1px solid #fff;
 }
 
 .butn:active {
@@ -477,6 +484,16 @@ header {
     color: #6070ff;
     cursor: pointer;
     text-decoration: none;
+    animation: logo 3s 1 linear;
+  }
+
+  @keyframes logo {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
   }
 
   header {
