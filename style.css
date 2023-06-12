@@ -579,7 +579,7 @@ header {
   }
 
   .description {
-    margin-top: 3.33%;
+    padding: 0 1.66%;
     margin-bottom: 9.5%;
   }
 
@@ -591,10 +591,9 @@ header {
   }
 
   .card img {
-    margin: 1.66%;    
     max-width: 60%;
     height: auto;
-  }  
+  }
 
   .card h4 {
     font-weight: 700;
