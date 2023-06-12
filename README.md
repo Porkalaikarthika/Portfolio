@@ -67,7 +67,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Demo link is coming soon](#)
+-   https://porkalaikarthika.github.io/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
