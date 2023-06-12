@@ -139,7 +139,8 @@ header {
 }
 
 .card img {
-  margin: 6.4%;
+  /* margin: 6.4%; */
+  padding: 0 1.66%;
   max-width: 100%;
 }
 
@@ -741,5 +742,5 @@ header {
     padding: 0.8vw 1.11vw;
     width: 15vw;
     font-size: 1.11vw;
-  }  
+  }
 }
