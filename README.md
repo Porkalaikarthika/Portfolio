@@ -67,7 +67,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
--   https://porkalaikarthika.github.io/
+-   https://github.com/Porkalaikarthika/Portfolio
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
