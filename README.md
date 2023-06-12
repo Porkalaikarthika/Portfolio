@@ -59,8 +59,8 @@
 ### Key Features <a name="key-features"></a>
 
 >
-- **Added Project details** [Details of the projects I have done are included] 
-- **Styled using flex and grid** [This page is styled using css flexbox and grid]
+- **Added Responsiveness to the portfolio** [The layout and content of the portfolio now adapt seamlessly to various screen resolutions, including desktop, tablet, and mobile. This ensures that visitors can easily navigate and view the portfolio's content, regardless of the device they are using. ] 
+- **Added Contact Form** [Integrated a contact form into the portfolio, allowing visitors to easily get in touch.]
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -94,8 +94,6 @@ Run command: https://github.com/Porkalaikarthika/Portfolio.git
 
 Install this project with:
 
-
-  
   npm install
 
 
@@ -104,8 +102,6 @@ Install this project with:
 To run the project, execute the following command:
 
 Open the index.html file
-
-
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -131,9 +127,9 @@ Open the index.html file
 
 
 
-- Add  project links
-- Add contact forms
-- Add blogs
+- Evaluate accessibility
+- Add Mobile menu
+- Incorporate form validation for the contact form
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -163,7 +159,7 @@ If you like this project share and comment
 
 
 
-I would like to thank Microverse
+I would like to thank Microverse.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
