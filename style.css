@@ -88,10 +88,6 @@ header {
   list-style-type: none;
 }
 
-#mobile-menu li {
-  padding-bottom: 10vw;
-}
-
 #close-icon {
   display: none;
   cursor: pointer;
@@ -403,6 +399,10 @@ header {
   overflow: hidden;
   background-color: #6070ff;
   border-radius: 8rem 0 0 0;
+}
+
+#mobile-menu li {
+  padding-bottom: 10vw;
 }
 
 @media screen and (min-width: 375px) and (max-width: 767px) {
