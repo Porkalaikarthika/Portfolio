@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Portfolio</title>
+    <title>Porkalai's Portfolio</title>
 </head>
 <body>
     <main>
@@ -14,7 +14,14 @@
                 <header>
                  <nav class="menu">
                      <a href="#">Porkalai</a>                        
-                     <img src="Icon - Menu.png" alt="Icon-menu">
+                     <img src="Icon - Menu.png" alt="Icon-menu" id="menu-icon">
+                     <ul id="mobile-menu">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact</a></li>
+                      </ul> 
+                      <div id="close-icon">&times;</div>                     
                  </nav>
                  <nav class="menuBar">
                     <a href="#">Porkalai</a>
@@ -53,18 +60,10 @@
                     </div>
                 </div>
             </div>  
-        </div>                    
-                
-        
-            
-                       
+        </div>                      
        </div>
 
-    </section>
-        
-            
-        
-        
+    </section>       
         <!-----------------start of middle------->
    <section class="middle">
             <div class="card">            
@@ -235,11 +234,9 @@
             </form>
             </div>
         
-        </section>
-        
-        
-        
+        </section>       
     </main>
+    <script src="menu.js"></script>
     
 </body>
 </html>

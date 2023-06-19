@@ -63,6 +63,28 @@ header {
   height: auto;
 }
 
+#mobile-menu {
+  display: none;
+}
+
+#mobile-menu.visible {
+  display: block;
+  list-style-type:none;
+  background-color: #6070ff;
+  opacity: 0.8;
+  color: #fff;
+}
+
+#close-icon {
+  display: none;
+  cursor: pointer;
+  color: #fff;
+}
+
+#menu-icon.hidden {
+  display: none;
+}
+
 .intro h1 {
   font-family: "Poppins", sans-serif;
   font-size: 2.5rem;
