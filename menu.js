@@ -9,16 +9,16 @@ function toggleMenu() {
   menuIcon.classList.toggle('hidden');
 }
 
-for (let i = 0; i < menuItem.length; i++ ) {
-  menuItem[i].addEventListener('click', function() {
+for (let i = 0; i < menuItem.length; i ++) {
+  menuItem[i].addEventListener('click', ()=> {
     toggleMenu();
   });
 }
 
-menuIcon.addEventListener('click', function() {
+menuIcon.addEventListener('click', ()=> {
   toggleMenu();
 });
 
-closeIcon.addEventListener('click', function() {
+closeIcon.addEventListener('click', ()=> {
   toggleMenu();
 });
