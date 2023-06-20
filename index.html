@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Portfolio</title>
+    <title>Porkalai's Portfolio</title>
 </head>
 <body>
     <main>
@@ -14,7 +14,13 @@
                 <header>
                  <nav class="menu">
                      <a href="#">Porkalai</a>                        
-                     <img src="Icon - Menu.png" alt="Icon-menu">
+                     <img src="Icon - Menu.png" alt="Icon-menu" id="menu-icon">
+                     <ul id="mobile-menu">
+                        <li><a href="#Projects" class="menuItems">Portfolio</a></li>
+                        <li><a href="#about" class="menuItems">About</a></li>                        
+                        <li><a href="#contact" class="menuItems">Contact</a></li>
+                      </ul> 
+                      <div id="close-icon">&times;</div>                     
                  </nav>
                  <nav class="menuBar">
                     <a href="#">Porkalai</a>
@@ -53,20 +59,12 @@
                     </div>
                 </div>
             </div>  
-        </div>                    
-                
-        
-            
-                       
+        </div>                      
        </div>
 
-    </section>
-        
-            
-        
-        
+    </section>       
         <!-----------------start of middle------->
-   <section class="middle">
+   <section class="middle" id="Projects">
             <div class="card">            
                 <img src="desktop-img/snap1.png" alt="project image" class="mimg">
                 <img src="desktop-img/snap1.png" alt="project image" class="dimg">                
@@ -167,7 +165,7 @@
             </section>
     </section>        
         <!----------------------------about------------->
-    <section class="aboutMyself">
+    <section class="aboutMyself" id="about">
             <div class="aboutBgColor">
                 <div class="myself">
                     <h2>About Myself</h2>
@@ -221,7 +219,7 @@
             
             
         </section>
-        <section class="bg">
+        <section class="bg" id="contact">
             <div class="contact-me">
                 <h2>Contact me</h2>
             <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. 
@@ -235,11 +233,9 @@
             </form>
             </div>
         
-        </section>
-        
-        
-        
+        </section>       
     </main>
+    <script src="menu.js"></script>
     
 </body>
 </html>

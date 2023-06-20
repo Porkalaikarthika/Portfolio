@@ -63,6 +63,49 @@ header {
   height: auto;
 }
 
+#mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 16%;
+  padding-left: 7%;
+  display: none;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(96, 112, 255, 0.8);
+  backdrop-filter: blur(6px);
+  z-index: 999;
+}
+
+#mobile-menu.visible a {
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 2.75rem;
+}
+
+#mobile-menu.visible {
+  display: block;
+  list-style-type: none;
+}
+
+#close-icon {
+  display: none;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+#close-icon.visible {
+  display: inline-block;
+  color: #fff;
+  font-size: 2rem;
+}
+
+#menu-icon.hidden {
+  display: none;
+}
+
 .intro h1 {
   font-family: "Poppins", sans-serif;
   font-size: 2.5rem;
@@ -358,6 +401,10 @@ header {
   overflow: hidden;
   background-color: #6070ff;
   border-radius: 8rem 0 0 0;
+}
+
+#mobile-menu li {
+  padding-bottom: 6vw;
 }
 
 @media screen and (min-width: 375px) and (max-width: 767px) {
