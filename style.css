@@ -73,12 +73,14 @@ header {
   width: 100%;
   height: 100%;
   background-color: rgba(96, 112, 255, 0.8);
+  backdrop-filter: blur(6px);
   z-index: 999;
 }
 
 #mobile-menu.visible a {
+  font-family: 'Poppins', sans-serif;
   color: #fff;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 2rem;
   line-height: 2.75rem;
 }
@@ -402,7 +404,7 @@ header {
 }
 
 #mobile-menu li {
-  padding-bottom: 10vw;
+  padding-bottom: 6vw;
 }
 
 @media screen and (min-width: 375px) and (max-width: 767px) {
