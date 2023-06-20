@@ -25,12 +25,12 @@ closeIcon.addEventListener('click', () => {
 
 const projects =[
   {
-    name: 'Project 1',
-    description: 'This is the first project',
-    image: 'project1.jpg',
-    technologies: 'HTML, CSS, JavaScript',
-    liveLink: 'https://example.com/project1',
-    sourceLink: 'https://github.com/project1'
+    name: 'Tonic',
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    image: 'desktop-img/snap1.png',
+    technologies: ['HTML', 'CSS', 'JavaScript'],
+    liveLink: '#',
+    sourceLink: '#'
   },
   {
     name: 'Project 2',
@@ -58,17 +58,24 @@ const projects =[
   }
 ];
 
+const seeProject1= document.querySelector('#seeProject1');
+  seeProject1.addEventListener('click', () => {
+    ShowModal(0);
+  });
+ 
+  function ShowModal (index)
+  {
+    document.getElementById('popupName').textContent=projects[index].name;
+    document.getElementById('popupImage').setAttribute('src', projects[index].image);
+    
+  }
+
+
 const projectsContainer = document.getElementById('projects');
 
     projects.forEach(project => {
     const projectElement = document.createElement('div');
-    projectElement.innerHTML = `
-      <h2>${project.name}</h2>
-      <p>${project.description}</p>
-      <img src="${project.image}" alt="${project.name}">
-      <button class="details-button">See Project</button>
-    `;
-
+    
     const detailsButton = projectElement.querySelector('.details-button');
       detailsButton.addEventListener('click', () => {
         showPopup(project);
