@@ -451,6 +451,11 @@ header {
   gap: 0.5rem;
   justify-content: space-between;
 }
+
+.modal .list {
+  margin-left: 0;
+}
+
 .modal .buttonlrg {
   margin: 1.2rem 1rem 1.2rem 0rem;
 }
