@@ -45,26 +45,26 @@ const projects =[
   {
     name: 'Multi-Post Stories',
     description: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
-    image: 'project2.jpg',
-    technologies: ['React', 'Node.js'],
-    liveLink: 'https://example.com/project2',
-    sourceLink: 'https://github.com/project2'
+    image: 'desktop-img/Snap2.png',
+    technologies: ['React', 'Node.js','sql'],
+    liveLink: '#',
+    sourceLink: '#'
   },
   {
     name: 'Facebook 360',
     description: 'Exploring the future of media in Facebook first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
-    image: 'project2.jpg',
-    technologies: 'React, Node.js',
-    liveLink: 'https://example.com/project2',
-    sourceLink: 'https://github.com/project2'
+    image: 'desktop-img/Snap3.png',
+    technologies: ['React', 'Node.js','Html'],
+    liveLink: '#',
+    sourceLink: '#'
   },
   {
     name: 'Uber Navigation',
     description: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
-    image: 'project2.jpg',
-    technologies: 'React, Node.js',
-    liveLink: 'https://example.com/project2',
-    sourceLink: 'https://github.com/project2'
+    image: 'desktop-img/Snap4.png',
+    technologies: ['React', 'Node.js','sql'],
+    liveLink: '#',
+    sourceLink: '#'
   }
 ];
 
