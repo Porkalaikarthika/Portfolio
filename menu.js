@@ -23,26 +23,22 @@ closeIcon.addEventListener('click', () => {
   toggleMenu();
 });
 
-//----------------contact form validation-----------------------
+// ----------------contact form validation-----------------------
 
 function handleSubmit(event) {
   event.preventDefault();
 
-  const emailInput = document.getElementById("email");
+  const emailInput = document.getElementById('email');
   const email = emailInput.value.toLowerCase();
 
   if (email === emailInput.value) {
-
-    document.getElementById("myForm").submit();
+    document.getElementById('Form').submit();
   } else {
-    const errorMessage = "Email must be in lower case, Form is not submitted";
-    const errorElement = document.getElementById("error");
-    errorElement.textContent = errorMessage;
-    
+    const errorMessage = 'Email must be in lower case, Form is not submitted';
+    const errorElement = document.getElementById('error');
+    errorElement.textContent = errorMessage;    
   }
 }
 
-const form = document.getElementById("myForm");
+const form = document.getElementById("Form");
 form.addEventListener("submit", handleSubmit);
-
-
