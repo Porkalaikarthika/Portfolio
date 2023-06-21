@@ -407,23 +407,23 @@ header {
   padding-bottom: 6vw;
 }
 
-#modal {
-  /* display: none; */
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 400px;
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-  z-index: 9999;
-}
-
-/* #modal.hide {
-  display: block;
+/* #modal {
+  display: none;
 } */
+
+#modal {
+  /* display: none; */  
+  position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 400px;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+      z-index: 9999;
+}
 
 .close-button {
   position: absolute;

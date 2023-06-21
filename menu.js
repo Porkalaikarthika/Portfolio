@@ -27,19 +27,17 @@ closeIcon.addEventListener('click', () => {
 //   const modal=getElementById('modal');
   
 //     showButton.addEventListener('click',()=>{
-//       if (modal.style.display === 'none') {
-//         modal.style.display = 'block';
-//       } else {
-//         modal.style.display = 'none';
-//       }
-//     });
+      
+//         modal.classList.toggle('show');
+//        });
+    
+    
 
 const projects =[
   {
     name: 'Tonic',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    image: 'desktop-img/snap1.png',
-    // skillList: ['CANOPY','Back End Dev','2015'],
+    image: 'desktop-img/snap1.png',    
     technologies: ['HTML', 'CSS', 'JavaScript'],
     liveLink: '#',
     sourceLink: '#'
@@ -48,7 +46,7 @@ const projects =[
     name: 'Multi-Post Stories',
     description: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
     image: 'project2.jpg',
-    technologies: 'React, Node.js',
+    technologies: ['React', 'Node.js','sql'],
     liveLink: 'https://example.com/project2',
     sourceLink: 'https://github.com/project2'
   },
@@ -73,6 +71,18 @@ const projects =[
 const seeProject1= document.querySelector('#seeProject1');
   seeProject1.addEventListener('click', () => {
     ShowModal(0);
+  });
+const seeProject2= document.querySelector('#seeProject2');
+  seeProject2.addEventListener('click', () => {
+    ShowModal(1);
+  });
+const seeProject3= document.querySelector('#seeProject3');
+  seeProject3.addEventListener('click', () => {
+    ShowModal(2);
+  });
+const seeProject4= document.querySelector('#seeProject4');
+  seeProject4.addEventListener('click', () => {
+    ShowModal(3);
   });
  
   function ShowModal (index)
