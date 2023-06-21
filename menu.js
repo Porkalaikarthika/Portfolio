@@ -23,37 +23,40 @@ closeIcon.addEventListener('click', () => {
   toggleMenu();
 });
 
-const modal=document.getElementById('modal');
-const showButton1=document.getElementById('seeProject1');  
-  showButton1.addEventListener('click', () => {
-    modal.classList.toggle('show');
-    ShowModal(0);
-  });
-const showButton2=document.getElementById('seeProject2');  
-  showButton2.addEventListener('click', () => {
-    modal.classList.toggle('show');
-    ShowModal(1);
-  });
-const showButton3=document.getElementById('seeProject3');  
-  showButton3.addEventListener('click', () => {
-    modal.classList.toggle('show');
-    ShowModal(2);
-  });
-const showButton4=document.getElementById('seeProject4');  
-  showButton4.addEventListener('click', () => {
-    modal.classList.toggle('show');
-    ShowModal(3);
-  });
-  
-    
-    
+const modal = document.getElementById('modal');
+const showButton1 = document.getElementById('seeProject1');
+showButton1.addEventListener('click', () => {
+  modal.classList.toggle('show');
+  ShowModal(0);
+});
+const showButton2 = document.getElementById('seeProject2');
+showButton2.addEventListener('click', () => {
+  modal.classList.toggle('show');
+  ShowModal(1);
+});
+const showButton3 = document.getElementById('seeProject3');
+showButton3.addEventListener('click', () => {
+  modal.classList.toggle('show');
+  ShowModal(2);
+});
+const showButton4 = document.getElementById('seeProject4');
+showButton4.addEventListener('click', () => {
+  modal.classList.toggle('show');
+  ShowModal(3);
+});
 
-const projects =[
+
+
+
+const projects = [
   {
     name: 'Tonic',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    image: 'desktop-img/snap1.png',    
+    image: 'desktop-img/snap1.png',
     technologies: ['HTML', 'CSS', 'JavaScript'],
+    client: 'CANOPY',
+    role: 'Back End Dev',
+    year: '2015',
     liveLink: '#',
     sourceLink: '#'
   },
@@ -61,7 +64,10 @@ const projects =[
     name: 'Multi-Post Stories',
     description: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
     image: 'desktop-img/Snap2.png',
-    technologies: ['React', 'Node.js','sql'],
+    technologies: ['HTML', 'Ruby on rails', 'CSS', 'JavaScript'],
+    client: 'FACEBOOK',
+    role: 'Full Stack Dev',
+    year: '2015',
     liveLink: '#',
     sourceLink: '#'
   },
@@ -69,7 +75,10 @@ const projects =[
     name: 'Facebook 360',
     description: 'Exploring the future of media in Facebook first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
     image: 'desktop-img/Snap3.png',
-    technologies: ['React', 'Node.js','Html'],
+    technologies: ['HTML', 'Ruby on rails', 'CSS', 'JavaScript'],
+    client: 'FACEBOOK',
+    role: 'Full Stack Dev',
+    year: '2015',
     liveLink: '#',
     sourceLink: '#'
   },
@@ -77,39 +86,28 @@ const projects =[
     name: 'Uber Navigation',
     description: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
     image: 'desktop-img/Snap4.png',
-    technologies: ['React', 'Node.js','sql'],
+    technologies: ['HTML', 'Ruby on rails', 'CSS', 'JavaScript'],
+    client: 'Uber',
+    role: 'Lead Developer',
+    year: '2018',
     liveLink: '#',
     sourceLink: '#'
   }
 ];
-
-// const seeProject1= document.querySelector('#seeProject1');
-  
-const seeProject2= document.querySelector('#seeProject2');
-  seeProject2.addEventListener('click', () => {
-    ShowModal(1);
-  });
-const seeProject3= document.querySelector('#seeProject3');
-  seeProject3.addEventListener('click', () => {
-    ShowModal(2);
-  });
-const seeProject4= document.querySelector('#seeProject4');
-  seeProject4.addEventListener('click', () => {
-    ShowModal(3);
-  });
-
-  document.getElementById('close-popup').addEventListener('click', () => {
-    modal.classList.toggle('show');
+document.getElementById('close-popup').addEventListener('click', () => {
+  modal.classList.toggle('show');
 });
- 
-  function ShowModal (index)
-  {
-    document.getElementById('popupName').textContent=projects[index].name;
-    document.getElementById('popupImage').setAttribute('src', projects[index].image);
-    document.getElementById('popupDescription').textContent=projects[index].description;
-    document.getElementById('tech1').textContent=projects[index].technologies[0];
-    document.getElementById('tech2').textContent=projects[index].technologies[1];
-    document.getElementById('tech3').textContent=projects[index].technologies[2];
-    document.getElementById('popupLive').setAttribute('href',projects[index].liveLink);
-    document.getElementById('popupSource').setAttribute('href',projects[index].sourceLink);
-  }
+
+function ShowModal(index) {
+  document.getElementById('popupName').textContent = projects[index].name;
+  document.getElementById('popupImage').setAttribute('src', projects[index].image);
+  document.getElementById('popupDescription').textContent = projects[index].description;
+  document.getElementById('tech1').textContent = projects[index].technologies[0];
+  document.getElementById('tech2').textContent = projects[index].technologies[1];
+  document.getElementById('tech3').textContent = projects[index].technologies[2];
+  document.getElementById('popupLive').setAttribute('href', projects[index].liveLink);
+  document.getElementById('popupSource').setAttribute('href', projects[index].sourceLink);
+  document.getElementById('client').textContent = projects[index].client;
+  document.getElementById('role').textContent = projects[index].role;
+  document.getElementById('year').textContent = projects[index].year;
+}
