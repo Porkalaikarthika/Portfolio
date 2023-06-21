@@ -23,34 +23,46 @@ closeIcon.addEventListener('click', () => {
   toggleMenu();
 });
 
+// const showButton=getElementsByClassName('details-button');
+//   const modal=getElementById('modal');
+  
+//     showButton.addEventListener('click',()=>{
+//       if (modal.style.display === 'none') {
+//         modal.style.display = 'block';
+//       } else {
+//         modal.style.display = 'none';
+//       }
+//     });
+
 const projects =[
   {
     name: 'Tonic',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     image: 'desktop-img/snap1.png',
+    // skillList: ['CANOPY','Back End Dev','2015'],
     technologies: ['HTML', 'CSS', 'JavaScript'],
     liveLink: '#',
     sourceLink: '#'
   },
   {
-    name: 'Project 2',
-    description: 'This is the second project',
+    name: 'Multi-Post Stories',
+    description: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
     image: 'project2.jpg',
     technologies: 'React, Node.js',
     liveLink: 'https://example.com/project2',
     sourceLink: 'https://github.com/project2'
   },
   {
-    name: 'Project 2',
-    description: 'This is the second project',
+    name: 'Facebook 360',
+    description: 'Exploring the future of media in Facebook first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
     image: 'project2.jpg',
     technologies: 'React, Node.js',
     liveLink: 'https://example.com/project2',
     sourceLink: 'https://github.com/project2'
   },
   {
-    name: 'Project 2',
-    description: 'This is the second project',
+    name: 'Uber Navigation',
+    description: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
     image: 'project2.jpg',
     technologies: 'React, Node.js',
     liveLink: 'https://example.com/project2',
@@ -67,43 +79,50 @@ const seeProject1= document.querySelector('#seeProject1');
   {
     document.getElementById('popupName').textContent=projects[index].name;
     document.getElementById('popupImage').setAttribute('src', projects[index].image);
-    
+    document.getElementById('popupDescription').textContent=projects[index].description;
+    document.getElementById('tech1').textContent=projects[index].technologies[0];
+    document.getElementById('tech2').textContent=projects[index].technologies[1];
+    document.getElementById('tech3').textContent=projects[index].technologies[2];
   }
+   
+  
+  
+  
 
 
-const projectsContainer = document.getElementById('projects');
+// const projectsContainer = document.getElementById('projects');
 
-    projects.forEach(project => {
-    const projectElement = document.createElement('div');
+//     projects.forEach(project => {
+//     const projectElement = document.createElement('div');
     
-    const detailsButton = projectElement.querySelector('.details-button');
-      detailsButton.addEventListener('click', () => {
-        showPopup(project);
-      });
-      projectsContainer.appendChild(projectElement);
-    });
+//     const detailsButton = projectElement.querySelector('.details-button');
+//       detailsButton.addEventListener('click', () => {
+//         showPopup(project);
+//       });
+//       projectsContainer.appendChild(projectElement);
+//     });
 
-    const popup = document.getElementById('projectDetailsPopup');
-    const popupName = document.getElementById('popupName');
-    const popupDescription = document.getElementById('popupDescription');
-    const popupImage = document.getElementById('popupImage');
-    const popupTechnologies = document.getElementById('popupTechnologies');
-    const popupLiveLink = document.getElementById('popupLiveLink');
-    const popupSourceLink = document.getElementById('popupSourceLink');
-    const closePopupButton = document.querySelector('.close-button');
+//     const popup = document.getElementById('projectDetailsPopup');
+//     const popupName = document.getElementById('popupName');
+//     const popupDescription = document.getElementById('popupDescription');
+//     const popupImage = document.getElementById('popupImage');
+//     const popupTechnologies = document.getElementById('popupTechnologies');
+//     const popupLiveLink = document.getElementById('popupLiveLink');
+//     const popupSourceLink = document.getElementById('popupSourceLink');
+//     const closePopupButton = document.querySelector('.close-button');
     
-    function showPopup(project) {
-      popupName.textContent = project.name;
-      popupDescription.textContent = project.description;
-      popupImage.src = project.image;
-      popupTechnologies.textContent = project.technologies;
-      popupLiveLink.href = project.liveLink;
-      popupSourceLink.href = project.sourceLink;
-      popup.style.display = 'block';
-    }
+//     function showPopup(project) {
+//       popupName.textContent = project.name;
+//       popupDescription.textContent = project.description;
+//       popupImage.src = project.image;
+//       popupTechnologies.textContent = project.technologies;
+//       popupLiveLink.href = project.liveLink;
+//       popupSourceLink.href = project.sourceLink;
+//       popup.style.display = 'block';
+//     }
 
-    function closePopup() {
-      popup.style.display = 'none';
-    }
+//     function closePopup() {
+//       popup.style.display = 'none';
+//     }
 
-    closePopupButton.addEventListener('click', closePopup);
+//     closePopupButton.addEventListener('click', closePopup);

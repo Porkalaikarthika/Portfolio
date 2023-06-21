@@ -407,7 +407,7 @@ header {
   padding-bottom: 6vw;
 }
 
-.popup {
+#modal {
   /* display: none; */
   position: fixed;
   top: 50%;
@@ -420,6 +420,10 @@ header {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   z-index: 9999;
 }
+
+/* #modal.hide {
+  display: block;
+} */
 
 .close-button {
   position: absolute;
