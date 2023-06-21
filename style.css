@@ -427,8 +427,7 @@ header {
   overflow-y: auto;
 }
 
-.modal .popup {
-  /* flex-wrap: wrap; */
+.modal .popup {  
   background-color: #fff;
   color: #000;
   margin: 13vwvw 4.2vw 13vw 4.2vw;
@@ -441,9 +440,9 @@ header {
 .modal .popup .liveButton {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  /* width: 50%; */
+  align-items: center;  
 }
+
 .modal .popup a {
   display: inline-flex;
   flex-wrap: nowrap;
@@ -456,8 +455,8 @@ header {
   margin: 1.2rem 1rem 1.2rem 0rem;
 }
 
-.modal .smallbtn {
-
+.modal .buttonList {
+margin-left: 0;
 }
 
 .modal .popup img {
@@ -467,23 +466,13 @@ header {
   height: auto;
 }
 
-/* #modal .popup > * {
-  flex: 1 1 100%; 
-}
-
-#modal .popup img {
-  max-width: 100%; 
-} */
-
 #popupImage {
-  width: 100%;
-  
-  width: auto;
+  width: 100%;  
   height: auto;
 }
 
 .close-button {  
-  float: right;
+  float: right ;
   cursor: pointer; 
   color: #67798e;
   font-size: 2rem;
