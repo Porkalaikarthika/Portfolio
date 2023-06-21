@@ -102,12 +102,22 @@ function ShowModal(index) {
   document.getElementById('popupName').textContent = projects[index].name;
   document.getElementById('popupImage').setAttribute('src', projects[index].image);
   document.getElementById('popupDescription').textContent = projects[index].description;
-  document.getElementById('tech1').textContent = projects[index].technologies[0];
-  document.getElementById('tech2').textContent = projects[index].technologies[1];
-  document.getElementById('tech3').textContent = projects[index].technologies[2];
+  // document.getElementById('tech1').textContent = projects[index].technologies[0];
+  // document.getElementById('tech2').textContent = projects[index].technologies[1];
+  // document.getElementById('tech3').textContent = projects[index].technologies[2];
   document.getElementById('popupLive').setAttribute('href', projects[index].liveLink);
   document.getElementById('popupSource').setAttribute('href', projects[index].sourceLink);
   document.getElementById('client').textContent = projects[index].client;
   document.getElementById('role').textContent = projects[index].role;
   document.getElementById('year').textContent = projects[index].year;
+
+  document.getElementById('techList').innerHTML = '';
+    projects[index].technologies.forEach((technologies) => {
+        const li = document.createElement('li');
+        const button = document.createElement('button');
+        button.innerText = technologies;
+        button.classList.add('smallbtn');
+        li.appendChild(button);
+        techList.appendChild(li);
+    });
 }
