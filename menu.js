@@ -23,13 +23,28 @@ closeIcon.addEventListener('click', () => {
   toggleMenu();
 });
 
-const showButton=getElementsByClassName('details-button');
-  const modal=getElementById('modal');
+const modal=document.getElementById('modal');
+const showButton1=document.getElementById('seeProject1');  
+  showButton1.addEventListener('click', () => {
+    modal.classList.toggle('show');
+    ShowModal(0);
+  });
+const showButton2=document.getElementById('seeProject2');  
+  showButton2.addEventListener('click', () => {
+    modal.classList.toggle('show');
+    ShowModal(1);
+  });
+const showButton3=document.getElementById('seeProject3');  
+  showButton3.addEventListener('click', () => {
+    modal.classList.toggle('show');
+    ShowModal(2);
+  });
+const showButton4=document.getElementById('seeProject4');  
+  showButton4.addEventListener('click', () => {
+    modal.classList.toggle('show');
+    ShowModal(3);
+  });
   
-    showButton.addEventListener('click',()=>{
-      
-        modal.classList.toggle('show');
-       });
     
     
 
@@ -68,10 +83,8 @@ const projects =[
   }
 ];
 
-const seeProject1= document.querySelector('#seeProject1');
-  seeProject1.addEventListener('click', () => {
-    ShowModal(0);
-  });
+// const seeProject1= document.querySelector('#seeProject1');
+  
 const seeProject2= document.querySelector('#seeProject2');
   seeProject2.addEventListener('click', () => {
     ShowModal(1);
@@ -84,6 +97,10 @@ const seeProject4= document.querySelector('#seeProject4');
   seeProject4.addEventListener('click', () => {
     ShowModal(3);
   });
+
+  document.getElementById('close-popup').addEventListener('click', () => {
+    modal.classList.toggle('show');
+});
  
   function ShowModal (index)
   {

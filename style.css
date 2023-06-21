@@ -407,22 +407,22 @@ header {
   padding-bottom: 6vw;
 }
 
-/* #modal {
-  display: none;
-} */
-
 #modal {
-  /* display: none;   */
+  display: none;
+}
+
+#modal.show {
+  display: block;
   position: fixed;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      width: 400px;
-      background-color: #fff;
-      padding: 20px;
-      border-radius: 5px;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-      z-index: 9999;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  z-index: 9999;
 }
 
 .close-button {
@@ -431,6 +431,7 @@ header {
   right: 10px;
   cursor: pointer;
 }
+
 @media screen and (min-width: 375px) and (max-width: 767px) {
   .bg::after {
     content: "";
