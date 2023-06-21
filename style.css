@@ -431,12 +431,19 @@ header {
   flex-wrap: wrap;
   background-color: #fff;
   color: #000;
-  padding: 1em;
+  padding: 1rem;
   border-radius: 1em;
   height: 90vh;
   overflow-y: auto;
 }
 
+#modal .popup > * {
+  flex: 1 1 100%; /* Allow each element to take up the full width */
+}
+
+#modal .popup img {
+  max-width: 100%; /* Ensure images fit within the container */
+}
 
 #popupImage {
   max-width: 100%;
