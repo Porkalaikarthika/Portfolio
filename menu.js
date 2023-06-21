@@ -23,13 +23,13 @@ closeIcon.addEventListener('click', () => {
   toggleMenu();
 });
 
-// const showButton=getElementsByClassName('details-button');
-//   const modal=getElementById('modal');
+const showButton=getElementsByClassName('details-button');
+  const modal=getElementById('modal');
   
-//     showButton.addEventListener('click',()=>{
+    showButton.addEventListener('click',()=>{
       
-//         modal.classList.toggle('show');
-//        });
+        modal.classList.toggle('show');
+       });
     
     
 
