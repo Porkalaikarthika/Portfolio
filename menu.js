@@ -110,46 +110,6 @@ const seeProject4= document.querySelector('#seeProject4');
     document.getElementById('tech1').textContent=projects[index].technologies[0];
     document.getElementById('tech2').textContent=projects[index].technologies[1];
     document.getElementById('tech3').textContent=projects[index].technologies[2];
+    document.getElementById('popupLive').setAttribute('href',projects[index].liveLink);
+    document.getElementById('popupSource').setAttribute('href',projects[index].sourceLink);
   }
-   
-  
-  
-  
-
-
-// const projectsContainer = document.getElementById('projects');
-
-//     projects.forEach(project => {
-//     const projectElement = document.createElement('div');
-    
-//     const detailsButton = projectElement.querySelector('.details-button');
-//       detailsButton.addEventListener('click', () => {
-//         showPopup(project);
-//       });
-//       projectsContainer.appendChild(projectElement);
-//     });
-
-//     const popup = document.getElementById('projectDetailsPopup');
-//     const popupName = document.getElementById('popupName');
-//     const popupDescription = document.getElementById('popupDescription');
-//     const popupImage = document.getElementById('popupImage');
-//     const popupTechnologies = document.getElementById('popupTechnologies');
-//     const popupLiveLink = document.getElementById('popupLiveLink');
-//     const popupSourceLink = document.getElementById('popupSourceLink');
-//     const closePopupButton = document.querySelector('.close-button');
-    
-//     function showPopup(project) {
-//       popupName.textContent = project.name;
-//       popupDescription.textContent = project.description;
-//       popupImage.src = project.image;
-//       popupTechnologies.textContent = project.technologies;
-//       popupLiveLink.href = project.liveLink;
-//       popupSourceLink.href = project.sourceLink;
-//       popup.style.display = 'block';
-//     }
-
-//     function closePopup() {
-//       popup.style.display = 'none';
-//     }
-
-//     closePopupButton.addEventListener('click', closePopup);

@@ -275,7 +275,7 @@ header {
 .buttonlrg {
   border: 1px solid #6070ff;
   border-radius: 0.5rem;
-  padding: 3%;
+  padding: 3vw;
   align-items: center;
   color: #396df2;
   font-family: "Poppins", sans-serif;
@@ -417,12 +417,29 @@ header {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 400px;
-  background-color: #fff;
-  padding: 20px;
+  width: 97vw;
+  /* min-height: 100vh;   */
+  background-color: #c1c7d0d5;
+  padding: 1rem;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   z-index: 9999;
+  overflow-y: initial !important;
+}
+
+#modal.popup {
+  flex-wrap: wrap;
+  background-color: #fff;
+  color: #000;
+  padding: 1em;
+  border-radius: 1em;
+  height: 90vh;
+  overflow-y: auto;
+}
+
+
+#popupImage {
+  max-width: 100%;
 }
 
 .close-button {
