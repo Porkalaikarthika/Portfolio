@@ -417,9 +417,10 @@ header {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 97vw;
+  width: 100vw;
   /* min-height: 100vh;   */
-  background-color: #c1c7d0d5;  
+  background-color: #c1c7d0d5;
+  backdrop-filter: blur(8px); 
   padding: 4.2vw;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
@@ -429,10 +430,10 @@ header {
 
 .modal .popup {  
   background-color: #fff;
-  color: #000;
-  margin: 13vwvw 4.2vw 13vw 4.2vw;
+  color: #172b4d;
+  margin: 13vw 4.2vw 13vw 4.2vw;
   padding: 1rem;
-  border-radius: 1em;
+  border-radius: 1rem;
   height: 90vh;
   overflow-y: auto;
 }
@@ -577,6 +578,21 @@ margin-left: 0;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+  }
+
+  #modal.show {
+    padding: 3.87vw;
+  }
+
+  #popupImage {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .modal .flexPop {
+    display: grid;
+    grid-template-columns: repeat(1fr,1fr);
+    gap: 5rem;
   }
 
   .menu {
