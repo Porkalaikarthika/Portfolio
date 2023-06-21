@@ -36,9 +36,9 @@ function handleSubmit(event) {
   } else {
     const errorMessage = 'Email must be in lower case, Form is not submitted';
     const errorElement = document.getElementById('error');
-    errorElement.textContent = errorMessage;    
+    errorElement.textContent = errorMessage;
   }
 }
 
-const form = document.getElementById("Form");
-form.addEventListener("submit", handleSubmit);
+const form = document.getElementById('Form');
+form.addEventListener('submit', handleSubmit);
