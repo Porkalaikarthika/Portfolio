@@ -48,7 +48,7 @@ const projects =[
     name: 'Multi-Post Stories',
     description: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
     image: 'project2.jpg',
-    technologies: 'React, Node.js',
+    technologies: ['React', 'Node.js'],
     liveLink: 'https://example.com/project2',
     sourceLink: 'https://github.com/project2'
   },
