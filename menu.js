@@ -87,8 +87,6 @@ function ShowModal(index) {
   document.getElementById('popupName').textContent = projects[index].name;
   document.getElementById('popupImage').setAttribute('src', projects[index].image);
   document.getElementById('popupDescription').textContent = projects[index].description;
-  // document.getElementById('popupLive').setAttribute('href', projects[index].liveLink);
-  // document.getElementById('popupSource').setAttribute('href', projects[index].sourceLink);
   document.getElementById('client').textContent = projects[index].client;
   document.getElementById('role').textContent = projects[index].role;
   document.getElementById('year').textContent = projects[index].year;
