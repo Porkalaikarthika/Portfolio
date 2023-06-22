@@ -426,8 +426,7 @@ header {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 100vw;
-  /* min-height: 100vh;   */
+  width: 100vw;  
   background-color: rgba (193, 199, 208, 0.8);
   backdrop-filter: blur(8px);
   padding: 4.2vw;
@@ -458,7 +457,7 @@ header {
 }
 
 .modal .buttonlrg {
-  margin: 1.2rem 1rem 1.2rem 0rem;
+  margin: 1.2rem 1rem 1.2rem 0;
 }
 
 .modal .buttonList {
@@ -641,7 +640,7 @@ header {
     font-size: 0.9375rem;
     font-weight: 500;
     line-height: 1.38vw;
-  }  
+  }
 
   @keyframes rotate {
     from {

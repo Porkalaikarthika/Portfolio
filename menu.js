@@ -24,50 +24,6 @@ closeIcon.addEventListener('click', () => {
 });
 
 const techList = document.getElementById('techList');
-
-function ShowModal(index) {
-  document.getElementById('popupName').textContent = projects[index].name;
-  document.getElementById('popupImage').setAttribute('src', projects[index].image);
-  document.getElementById('popupDescription').textContent = projects[index].description;  
-  document.getElementById('popupLive').setAttribute('href', projects[index].liveLink);
-  document.getElementById('popupSource').setAttribute('href', projects[index].sourceLink);
-  document.getElementById('client').textContent = projects[index].client;
-  document.getElementById('role').textContent = projects[index].role;
-  document.getElementById('year').textContent = projects[index].year;
-
-  techList.innerHTML = '';
-  projects[index].technologies.forEach((technologies) => {
-    const li = document.createElement('li');
-    const button = document.createElement('button');
-    button.innerText = technologies;
-    button.classList.add('smallbtn');
-    li.appendChild(button);
-    techList.appendChild(li);
-  });
-}
-
-const modal = document.getElementById('modal');
-const showButton1 = document.getElementById('seeProject1');
-showButton1.addEventListener('click', () => {
-  modal.classList.toggle('show');
-  ShowModal(0);
-});
-const showButton2 = document.getElementById('seeProject2');
-showButton2.addEventListener('click', () => {
-  modal.classList.toggle('show');
-  ShowModal(1);
-});
-const showButton3 = document.getElementById('seeProject3');
-showButton3.addEventListener('click', () => {
-  modal.classList.toggle('show');
-  ShowModal(2);
-});
-const showButton4 = document.getElementById('seeProject4');
-showButton4.addEventListener('click', () => {
-  modal.classList.toggle('show');
-  ShowModal(3);
-});
-
 const projects = [
   {
     name: 'Tonic',
@@ -118,4 +74,45 @@ document.getElementById('close-popup').addEventListener('click', () => {
   modal.classList.toggle('show');
 });
 
+function ShowModal(index) {
+  document.getElementById('popupName').textContent = projects[index].name;
+  document.getElementById('popupImage').setAttribute('src', projects[index].image);
+  document.getElementById('popupDescription').textContent = projects[index].description;  
+  document.getElementById('popupLive').setAttribute('href', projects[index].liveLink);
+  document.getElementById('popupSource').setAttribute('href', projects[index].sourceLink);
+  document.getElementById('client').textContent = projects[index].client;
+  document.getElementById('role').textContent = projects[index].role;
+  document.getElementById('year').textContent = projects[index].year;
 
+  techList.innerHTML = '';
+  projects[index].technologies.forEach((technologies) => {
+    const li = document.createElement('li');
+    const button = document.createElement('button');
+    button.innerText = technologies;
+    button.classList.add('smallbtn');
+    li.appendChild(button);
+    techList.appendChild(li);
+  });
+}
+
+const modal = document.getElementById('modal');
+const showButton1 = document.getElementById('seeProject1');
+showButton1.addEventListener('click', () => {
+  modal.classList.toggle('show');
+  ShowModal(0);
+});
+const showButton2 = document.getElementById('seeProject2');
+showButton2.addEventListener('click', () => {
+  modal.classList.toggle('show');
+  ShowModal(1);
+});
+const showButton3 = document.getElementById('seeProject3');
+showButton3.addEventListener('click', () => {
+  modal.classList.toggle('show');
+  ShowModal(2);
+});
+const showButton4 = document.getElementById('seeProject4');
+showButton4.addEventListener('click', () => {
+  modal.classList.toggle('show');
+  ShowModal(3);
+});
