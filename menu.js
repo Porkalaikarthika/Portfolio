@@ -101,14 +101,11 @@ function ShowModal(index) {
     techList.appendChild(li);
   });
 
-  const liveLink = projects[index].liveLink;
-  const sourceLink = projects[index].sourceLink;
-
   const liveButtonContainer = document.querySelector('.liveButton');
   liveButtonContainer.innerHTML = '';
 
   const liveButton = document.createElement('a');
-  liveButton.href = liveLink;
+  liveButton.href = projects[index].liveLink;;
   liveButton.classList.add('buttonlrg');
   liveButton.innerHTML = `
     See Live
@@ -116,7 +113,7 @@ function ShowModal(index) {
   `;
 
   const sourceButton = document.createElement('a');
-  sourceButton.href = sourceLink;
+  sourceButton.href = projects[index].sourceLink;;
   sourceButton.classList.add('buttonlrg');
   sourceButton.innerHTML = `
     See Source
@@ -130,11 +127,9 @@ function ShowModal(index) {
 const projectsContainer = document.getElementById('projects-container');
 
 projects.forEach((project, index) => {
-
   const projectSection = document.createElement('section');
   projectSection.classList.add('card');
-  if (index==1||3)
-  {
+  if (index == 1 || 3) {
     projectSection.classList.add('rev');
   }
 
@@ -182,7 +177,7 @@ projects.forEach((project, index) => {
 
   const technologiesList = document.createElement('ul');
   technologiesList.classList.add('buttonList');
-  project.technologies.forEach(technology => {
+  project.technologies.forEach((technology) => {
     const technologyLi = document.createElement('li');
     const technologyButton = document.createElement('button');
     technologyButton.classList.add('smallbtn');
@@ -201,7 +196,5 @@ projects.forEach((project, index) => {
     ShowModal(index);
   });
   descriptionDiv.appendChild(seeProjectButton);
-
   projectsContainer.appendChild(projectSection);
-
 });

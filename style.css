@@ -81,7 +81,7 @@ header {
   display: inline-flex;
   flex-wrap: nowrap;
   flex-direction: row;
-  align-items: center; 
+  align-items: center;
   justify-content: space-between;
 }
 
@@ -749,7 +749,6 @@ header {
     flex-direction: row-reverse;
     border-radius: 1.65vw;
     margin: 0 9.86% 0 9.86%;
-
   }
 
   .projectImg {
