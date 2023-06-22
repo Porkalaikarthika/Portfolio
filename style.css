@@ -587,11 +587,16 @@ header {
   #popupImage {
     max-width: 100%;
     height: auto;
+    padding: 2rem 0;
   }
 
   .flexPop {
     display: flex;
     gap: 5rem;
+  }
+
+  .flexPop .con1 {
+    flex: 1;
   }
 
   .modal .popup a {
