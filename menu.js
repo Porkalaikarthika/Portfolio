@@ -112,12 +112,12 @@ function ShowModal(index) {
   document.getElementById('year').textContent = projects[index].year;
 
   document.getElementById('techList').innerHTML = '';
-    projects[index].technologies.forEach((technologies) => {
-        const li = document.createElement('li');
-        const button = document.createElement('button');
-        button.innerText = technologies;
-        button.classList.add('smallbtn');
-        li.appendChild(button);
-        techList.appendChild(li);
-    });
+  projects[index].technologies.forEach((technologies) => {
+    const li = document.createElement('li');
+    const button = document.createElement('button');
+    button.innerText = technologies;
+    button.classList.add('smallbtn');
+    li.appendChild(button);
+    techList.appendChild(li);
+  });
 }

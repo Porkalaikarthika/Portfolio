@@ -419,8 +419,8 @@ header {
   transform: translate(-50%, -50%);
   width: 100vw;
   /* min-height: 100vh;   */
-  background-color: rgba (193,199,208,0.8);
-  backdrop-filter: blur(8px); 
+  background-color: rgba (193, 199, 208, 0.8);
+  backdrop-filter: blur(8px);
   padding: 4.2vw;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
@@ -428,7 +428,7 @@ header {
   overflow-y: auto;
 }
 
-.modal .popup {  
+.modal .popup {
   background-color: #fff;
   color: #172b4d;
   margin: 13vw 4.2vw 13vw 4.2vw;
@@ -441,7 +441,7 @@ header {
 .modal .popup .liveButton {
   display: flex;
   flex-direction: row;
-  align-items: center;  
+  align-items: center;
 }
 
 .modal .popup a {
@@ -462,7 +462,7 @@ header {
 }
 
 .modal .buttonList {
-margin-left: 0;
+  margin-left: 0;
 }
 
 .modal .popup img {
@@ -473,13 +473,13 @@ margin-left: 0;
 }
 
 #popupImage {
-  width: 100%;  
+  width: 100%;
   height: auto;
 }
 
-.close-button {  
-  float: right ;
-  cursor: pointer; 
+.close-button {
+  float: right;
+  cursor: pointer;
   color: #67798e;
   font-size: 2rem;
   z-index: 10000;
@@ -590,8 +590,17 @@ margin-left: 0;
   }
 
   .flexPop {
-    display: flex;    
+    display: flex;
     gap: 5rem;
+  }
+
+  .modal .popup a {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+    justify-content: space-between;
   }
 
   .menu {
