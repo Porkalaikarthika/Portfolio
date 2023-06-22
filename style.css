@@ -78,7 +78,9 @@ header {
 }
 
 #bottomLine {
-  color: #ebecf0;
+  background-color: #ebecf0;
+  height: 1px;
+  border: none;
 }
 
 .modal .popup a {
