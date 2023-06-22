@@ -275,7 +275,7 @@ header {
 .buttonlrg {
   border: 1px solid #6070ff;
   border-radius: 0.5rem;
-  padding: 3vw;
+  padding: 0.75rem;
   align-items: center;
   color: #396df2;
   font-family: "Poppins", sans-serif;
@@ -419,7 +419,7 @@ header {
   transform: translate(-50%, -50%);
   width: 100vw;
   /* min-height: 100vh;   */
-  background-color: #c1c7d0d5;
+  background-color: rgba (193,199,208,0.8);
   backdrop-filter: blur(8px); 
   padding: 4.2vw;
   border-radius: 5px;
@@ -581,7 +581,7 @@ margin-left: 0;
   }
 
   #modal.show {
-    padding: 3.87vw;
+    padding: 9.87vw;
   }
 
   #popupImage {
@@ -589,9 +589,8 @@ margin-left: 0;
     height: auto;
   }
 
-  .modal .flexPop {
-    display: grid;
-    grid-template-columns: repeat(1fr,1fr);
+  .flexPop {
+    display: flex;    
     gap: 5rem;
   }
 
