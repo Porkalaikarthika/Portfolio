@@ -24,6 +24,7 @@ closeIcon.addEventListener('click', () => {
 });
 
 const techList = document.getElementById('techList');
+const modal = document.getElementById('modal');
 const projects = [
   {
     name: 'Tonic',
@@ -77,7 +78,7 @@ document.getElementById('close-popup').addEventListener('click', () => {
 function ShowModal(index) {
   document.getElementById('popupName').textContent = projects[index].name;
   document.getElementById('popupImage').setAttribute('src', projects[index].image);
-  document.getElementById('popupDescription').textContent = projects[index].description;  
+  document.getElementById('popupDescription').textContent = projects[index].description;
   document.getElementById('popupLive').setAttribute('href', projects[index].liveLink);
   document.getElementById('popupSource').setAttribute('href', projects[index].sourceLink);
   document.getElementById('client').textContent = projects[index].client;
@@ -95,7 +96,6 @@ function ShowModal(index) {
   });
 }
 
-const modal = document.getElementById('modal');
 const showButton1 = document.getElementById('seeProject1');
 showButton1.addEventListener('click', () => {
   modal.classList.toggle('show');

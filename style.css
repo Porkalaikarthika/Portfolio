@@ -426,7 +426,7 @@ header {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 100vw;  
+  width: 100vw;
   background-color: rgba (193, 199, 208, 0.8);
   backdrop-filter: blur(8px);
   padding: 4.2vw;
