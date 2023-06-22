@@ -77,12 +77,15 @@ header {
   z-index: 999;
 }
 
+#bottomLine {
+  color: #ebecf0;
+}
+
 .modal .popup a {
   display: inline-flex;
   flex-wrap: nowrap;
   flex-direction: row;
-  align-items: center;
-  gap: 0.5rem;
+  align-items: center;  
   justify-content: space-between;
 }
 
@@ -427,7 +430,7 @@ header {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100vw;
-  background-color: rgba (193, 199, 208, 0.8);
+  background-color: rgba (193, 199, 208, 0.8);  
   backdrop-filter: blur(8px);
   padding: 4.2vw;
   border-radius: 5px;
@@ -717,7 +720,7 @@ header {
   }
 
   /* ----------middle section------------ */
-  .middle {
+  .middle #projects-container{
     background-color: #e5e5e5;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -736,6 +739,13 @@ header {
   .card {
     display: flex;
     flex-direction: row;
+    border-radius: 1.65vw;
+    margin: 0 9.86% 0 9.86%;
+  }
+
+  .card .rev {
+    display: flex;
+    flex-direction: row-reverse;
     border-radius: 1.65vw;
     margin: 0 9.86% 0 9.86%;
   }
