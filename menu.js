@@ -105,7 +105,7 @@ function ShowModal(index) {
   liveButtonContainer.innerHTML = '';
 
   const liveButton = document.createElement('a');
-  liveButton.href = projects[index].liveLink;;
+  liveButton.href = projects[index].liveLink;
   liveButton.classList.add('buttonlrg');
   liveButton.innerHTML = `
     See Live
@@ -113,7 +113,7 @@ function ShowModal(index) {
   `;
 
   const sourceButton = document.createElement('a');
-  sourceButton.href = projects[index].sourceLink;;
+  sourceButton.href = projects[index].sourceLink;
   sourceButton.classList.add('buttonlrg');
   sourceButton.innerHTML = `
     See Source
@@ -129,7 +129,7 @@ const projectsContainer = document.getElementById('projects-container');
 projects.forEach((project, index) => {
   const projectSection = document.createElement('section');
   projectSection.classList.add('card');
-  if (index == 1 || 3) {
+  if (index === 1 || 3) {
     projectSection.classList.add('rev');
   }
 
