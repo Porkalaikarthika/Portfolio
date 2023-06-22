@@ -23,6 +23,29 @@ closeIcon.addEventListener('click', () => {
   toggleMenu();
 });
 
+const techList = document.getElementById('techList');
+
+function ShowModal(index) {
+  document.getElementById('popupName').textContent = projects[index].name;
+  document.getElementById('popupImage').setAttribute('src', projects[index].image);
+  document.getElementById('popupDescription').textContent = projects[index].description;  
+  document.getElementById('popupLive').setAttribute('href', projects[index].liveLink);
+  document.getElementById('popupSource').setAttribute('href', projects[index].sourceLink);
+  document.getElementById('client').textContent = projects[index].client;
+  document.getElementById('role').textContent = projects[index].role;
+  document.getElementById('year').textContent = projects[index].year;
+
+  techList.innerHTML = '';
+  projects[index].technologies.forEach((technologies) => {
+    const li = document.createElement('li');
+    const button = document.createElement('button');
+    button.innerText = technologies;
+    button.classList.add('smallbtn');
+    li.appendChild(button);
+    techList.appendChild(li);
+  });
+}
+
 const modal = document.getElementById('modal');
 const showButton1 = document.getElementById('seeProject1');
 showButton1.addEventListener('click', () => {
@@ -45,9 +68,6 @@ showButton4.addEventListener('click', () => {
   ShowModal(3);
 });
 
-
-
-
 const projects = [
   {
     name: 'Tonic',
@@ -58,7 +78,7 @@ const projects = [
     role: 'Back End Dev',
     year: '2015',
     liveLink: '#',
-    sourceLink: '#'
+    sourceLink: '#',
   },
   {
     name: 'Multi-Post Stories',
@@ -69,7 +89,7 @@ const projects = [
     role: 'Full Stack Dev',
     year: '2015',
     liveLink: '#',
-    sourceLink: '#'
+    sourceLink: '#',
   },
   {
     name: 'Facebook 360',
@@ -80,7 +100,7 @@ const projects = [
     role: 'Full Stack Dev',
     year: '2015',
     liveLink: '#',
-    sourceLink: '#'
+    sourceLink: '#',
   },
   {
     name: 'Uber Navigation',
@@ -91,33 +111,11 @@ const projects = [
     role: 'Lead Developer',
     year: '2018',
     liveLink: '#',
-    sourceLink: '#'
-  }
+    sourceLink: '#',
+  },
 ];
 document.getElementById('close-popup').addEventListener('click', () => {
   modal.classList.toggle('show');
 });
 
-function ShowModal(index) {
-  document.getElementById('popupName').textContent = projects[index].name;
-  document.getElementById('popupImage').setAttribute('src', projects[index].image);
-  document.getElementById('popupDescription').textContent = projects[index].description;
-  // document.getElementById('tech1').textContent = projects[index].technologies[0];
-  // document.getElementById('tech2').textContent = projects[index].technologies[1];
-  // document.getElementById('tech3').textContent = projects[index].technologies[2];
-  document.getElementById('popupLive').setAttribute('href', projects[index].liveLink);
-  document.getElementById('popupSource').setAttribute('href', projects[index].sourceLink);
-  document.getElementById('client').textContent = projects[index].client;
-  document.getElementById('role').textContent = projects[index].role;
-  document.getElementById('year').textContent = projects[index].year;
 
-  document.getElementById('techList').innerHTML = '';
-  projects[index].technologies.forEach((technologies) => {
-    const li = document.createElement('li');
-    const button = document.createElement('button');
-    button.innerText = technologies;
-    button.classList.add('smallbtn');
-    li.appendChild(button);
-    techList.appendChild(li);
-  });
-}
