@@ -33,6 +33,7 @@ function handleSubmit(event) {
 
   if (email === emailInput.value) {
     document.getElementById('Form').submit();
+    document.getElementById('Form').reset();
   } else {
     const errorMessage = 'The Email has to be in lower case, Form is not submitted';
     const errorElement = document.getElementById('error');
