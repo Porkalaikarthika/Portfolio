@@ -77,6 +77,14 @@ header {
   z-index: 999;
 }
 
+.modal .popup a {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
 #mobile-menu.visible a {
   font-family: 'Poppins', sans-serif;
   color: #fff;
@@ -181,17 +189,17 @@ header {
   display: block;
 }
 
-.card img {
+.projectImg {
   padding: 6.4%;
   max-width: 100%;
   transition: all 0.3s ease;
 }
 
-.card img:hover {
+.projectImg:hover {
   transform: scale(1.2);
 }
 
-.card h4 {
+.heading {
   font-weight: 700;
   font-size: 2rem;
   line-height: 2.75rem;
@@ -267,6 +275,11 @@ header {
   transition: background-color 400ms linear, color 400ms linear;
 }
 
+#bottomLine {
+  background-color: #f7f7f9;
+  border: none;
+}
+
 .smallbtn:hover {
   background-color: #091e42;
   color: #fff;
@@ -275,7 +288,7 @@ header {
 .buttonlrg {
   border: 1px solid #6070ff;
   border-radius: 0.5rem;
-  padding: 3%;
+  padding: 0.75rem;
   align-items: center;
   color: #396df2;
   font-family: "Poppins", sans-serif;
@@ -407,6 +420,74 @@ header {
   padding-bottom: 6vw;
 }
 
+#modal {
+  display: none;
+}
+
+#modal.show {
+  display: block;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100vw;
+  background-color: rgba (193, 199, 208, 0.8);
+  backdrop-filter: blur(8px);
+  padding: 4.2vw;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  z-index: 9999;
+  overflow-y: auto;
+}
+
+.modal .popup {
+  background-color: #fff;
+  color: #172b4d;
+  margin: 13vw 4.2vw 13vw 4.2vw;
+  padding: 1rem;
+  border-radius: 1rem;
+  height: 90vh;
+  overflow-y: auto;
+}
+
+.modal .popup .liveButton {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.modal .list {
+  margin-left: 0;
+}
+
+.modal .buttonlrg {
+  margin: 1.2rem 1rem 1.2rem 0;
+}
+
+.modal .buttonList {
+  margin-left: 0;
+}
+
+.modal .popup img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+}
+
+#popupImage {
+  width: 100%;
+  height: auto;
+}
+
+.close-button {
+  float: right;
+  cursor: pointer;
+  color: #67798e;
+  font-size: 2rem;
+  z-index: 10000;
+}
+
 @media screen and (min-width: 375px) and (max-width: 767px) {
   .bg::after {
     content: "";
@@ -502,6 +583,48 @@ header {
     box-sizing: border-box;
   }
 
+  .menuBar a {
+    width: 5.27%;
+    height: 1.38%;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.25vw;
+    line-height: 1.38vw;
+    color: #6070ff;
+    cursor: pointer;
+    text-decoration: none;
+    animation: rotate 4s linear 1;
+  }
+
+  #modal.show {
+    padding: 9.87vw;
+  }
+
+  #popupImage {
+    max-width: 100%;
+    height: auto;
+    padding: 2rem 0;
+  }
+
+  .flexPop {
+    display: flex;
+    gap: 5rem;
+  }
+
+  .flexPop .con1 {
+    flex: 1;
+  }
+
+  .modal .popup a {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+    justify-content: space-between;
+  }
+
   .menu {
     display: none;
   }
@@ -521,20 +644,6 @@ header {
     font-size: 0.9375rem;
     font-weight: 500;
     line-height: 1.38vw;
-  }
-
-  .menuBar a {
-    width: 5.27%;
-    height: 1.38%;
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1.25vw;
-    line-height: 1.38vw;
-    color: #6070ff;
-    cursor: pointer;
-    text-decoration: none;
-    animation: rotate 4s linear 1;
   }
 
   @keyframes rotate {
@@ -612,7 +721,7 @@ header {
   }
 
   /* ----------middle section------------ */
-  .middle {
+  .middle #projects-container {
     background-color: #e5e5e5;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -635,12 +744,19 @@ header {
     margin: 0 9.86% 0 9.86%;
   }
 
-  .card img {
+  .card .rev {
+    display: flex;
+    flex-direction: row-reverse;
+    border-radius: 1.65vw;
+    margin: 0 9.86% 0 9.86%;
+  }
+
+  .projectImg {
     max-width: 60%;
     height: auto;
   }
 
-  .card h4 {
+  .heading {
     font-weight: 700;
     font-size: 2.7vw;
     line-height: 3.6vw;
