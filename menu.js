@@ -23,6 +23,27 @@ closeIcon.addEventListener('click', () => {
   toggleMenu();
 });
 
+// ----------------contact form validation-----------------------
+
+function handleSubmit(event) {
+  event.preventDefault();
+
+  const emailInput = document.getElementById('email');
+  const email = emailInput.value.toLowerCase();
+
+  if (email === emailInput.value) {
+    document.getElementById('Form').submit();
+    document.getElementById('Form').reset();
+  } else {
+    const errorMessage = 'The Email has to be in lower case, Form is not submitted';
+    const errorElement = document.getElementById('error');
+    errorElement.textContent = errorMessage;
+  }
+}
+
+const form = document.getElementById('Form');
+form.addEventListener('submit', handleSubmit);
+
 const techList = document.getElementById('techList');
 const modal = document.getElementById('modal');
 const projects = [
