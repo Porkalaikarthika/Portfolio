@@ -23,7 +23,6 @@ closeIcon.addEventListener('click', () => {
   toggleMenu();
 });
 
-
 // ----------------contact form validation-----------------------
 
 function handleSubmit(event) {
@@ -219,4 +218,3 @@ projects.forEach((project, index) => {
   descriptionDiv.appendChild(seeProjectButton);
   projectsContainer.appendChild(projectSection);
 });
-
